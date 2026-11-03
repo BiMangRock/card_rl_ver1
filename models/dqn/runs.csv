@@ -1,0 +1,4 @@
+run,started,algo,start_games,target_games,resume,deck,opp,curriculum,shape,gamma,lr,device
+20261025_101926,2026-10-25 10:19:28,dqn,0,200,0,random,"rule2:0.5,rule:0.3,random:0.2",0,0.5,0.99,0.0003,cuda
+20261025_102531,2026-10-25 10:25:33,dqn,0,20000,0,random,"rule2:0.5,rule:0.3,random:0.2",1,0.5,0.99,0.0003,cuda
+20261025_121704,2026-10-25 12:17:06,dqn,0,20000,0,random,"rule2:0.5,rule:0.3,random:0.2",1,0.5,0.99,0.0003,cuda

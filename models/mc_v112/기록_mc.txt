@@ -1,0 +1,123 @@
+Microsoft Windows [Version 10.0.26200.9711]
+(c) Microsoft Corporation. All rights reserved.
+
+(base) C:\Users\changmin>C:\card_rl\start.bat
+
+(cardrl) C:\card_rl>python train\train.py --algo mc    --name mc_v112    --games 30000
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule2': 0.5, 'rule': 0.3, 'random': 0.2}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시  학습해야 합니다.
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+경기 324/30000  665 결정/초  탐험 0.97  손실 0.279  최근 학습승률(탐험 포함) 11%
+경기 628/30000  630 결정/초  탐험 0.95  손실 0.181  최근 학습승률(탐험 포함) 16%
+경기 939/30000  633 결정/초  탐험 0.93  손실 0.164  최근 학습승률(탐험 포함) 16%
+경기 1239/30000  629 결정/초  탐험 0.90  손실 0.171  최근 학습승률(탐험 포함) 17%
+경기 1550/30000  627 결정/초  탐험 0.88  손실 0.172  최근 학습승률(탐험 포함) 15%
+경기 1866/30000  630 결정/초  탐험 0.85  손실 0.188  최근 학습승률(탐험 포함) 19%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 80% · rule 35% · rule2 10%  (best 22%)
+경기 2003/30000  526 결정/초  탐험 0.84  손실 0.190  최근 학습승률(탐험 포함) 18%
+경기 2318/30000  537 결정/초  탐험 0.82  손실 0.190  최근 학습승률(탐험 포함) 19%
+경기 2649/30000  547 결정/초  탐험 0.79  손실 0.194  최근 학습승률(탐험 포함) 19%
+경기 2968/30000  558 결정/초  탐험 0.77  손실 0.198  최근 학습승률(탐험 포함) 20%
+경기 3218/30000  556 결정/초  탐험 0.75  손실 0.203  최근 학습승률(탐험 포함) 25%
+경기 3264/30000  515 결정/초  탐험 0.74  손실 0.202  최근 학습승률(탐험 포함) 25%
+경기 3274/30000  479 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 24%
+경기 3282/30000  443 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 23%
+경기 3284/30000  393 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 23%
+경기 3286/30000  368 결정/초  탐험 0.74  손실 0.198  최근 학습승률(탐험 포함) 23%
+경기 3290/30000  294 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 23%
+경기 3294/30000  275 결정/초  탐험 0.74  손실 0.198  최근 학습승률(탐험 포함) 23%
+경기 3297/30000  234 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 23%
+경기 3299/30000  219 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 23%
+경기 3301/30000  204 결정/초  탐험 0.74  손실 0.198  최근 학습승률(탐험 포함) 23%
+경기 3302/30000  192 결정/초  탐험 0.74  손실 0.198  최근 학습승률(탐험 포함) 23%
+경기 3302/30000  168 결정/초  탐험 0.74  손실 0.198  최근 학습승률(탐험 포함) 23%
+경기 3304/30000  160 결정/초  탐험 0.74  손실 0.199  최근 학습승률(탐험 포함) 23%
+경기 3307/30000  152 결정/초  탐험 0.74  손실 0.200  최근 학습승률(탐험 포함) 23%
+경기 3310/30000  145 결정/초  탐험 0.74  손실 0.201  최근 학습승률(탐험 포함) 23%
+경기 3314/30000  131 결정/초  탐험 0.74  손실 0.202  최근 학습승률(탐험 포함) 23%
+경기 3316/30000  120 결정/초  탐험 0.74  손실 0.203  최근 학습승률(탐험 포함) 23%
+
+<--- Last few GCs --->
+
+[14484:000001C5D5A82000]  1288794 ms: Mark-Compact (reduce) 4094.7 (4098.2) -> 4093.9 (4096.4) MB, pooled: 0 MB, 1820.17 / 0.00 ms  (+ 152.4 ms in 30 steps since start of marking, biggest step 6.0 ms, walltime since start of marking 1991 ms) (average mu =[14484:000001C5D5A82000]  1292066 ms: Mark-Compact 4094.9 (4096.4) -> 4094.5 (4099.9) MB, pooled: 0 MB, 3268.19 / 0.00 ms  (average mu = 0.100, current mu = 0.001) allocation failure; scavenge might not succeed
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF7732E6536 node::SetAbortHandler+54
+ 2: 00007FF7732E6A74 node::OnFatalError+1284
+ 3: 00007FF771ED2387 v8::Function::NewInstance+423
+ 4: 00007FF771CD2BC7 v8::HeapStatistics::used_global_handles_size+54423
+ 5: 00007FF771CD68D4 v8::HeapStatistics::used_global_handles_size+70052
+ 6: 00007FF771CE583C v8::internal::StrongRootAllocatorBase::deallocate_impl+16604
+ 7: 00007FF771CE507B v8::internal::StrongRootAllocatorBase::deallocate_impl+14619
+ 8: 00007FF77361922D node::AsyncResource::CallbackScope::CallbackScope+2124493
+ 9: 00007FF771CD0690 v8::HeapStatistics::used_global_handles_size+44896
+10: 00007FF771CEAEEA X509_STORE_set_cleanup+5098
+11: 00007FF771CF6D48 uv_timer_set_repeat+19096
+12: 00007FF771D11C2B uv_timer_set_repeat+129403
+13: 00007FF7719AAE17 X509_STORE_CTX_set0_crls+407063
+14: 00007FF7719AA117 X509_STORE_CTX_set0_crls+403735
+15: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+16: 00007FF7719AEA00 X509_STORE_CTX_set0_crls+422400
+17: 00007FF7719AB1D0 X509_STORE_CTX_set0_crls+408016
+18: 00007FF7719AA206 X509_STORE_CTX_set0_crls+403974
+19: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+20: 00007FF7719AEB91 X509_STORE_CTX_set0_crls+422801
+21: 00007FF7719AB1D0 X509_STORE_CTX_set0_crls+408016
+22: 00007FF7719AA206 X509_STORE_CTX_set0_crls+403974
+23: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+24: 00007FF7719AF02C X509_STORE_CTX_set0_crls+423980
+25: 00007FF7719AB5AA X509_STORE_CTX_set0_crls+409002
+26: 00007FF7719AA079 X509_STORE_CTX_set0_crls+403577
+27: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+28: 00007FF7719AEB91 X509_STORE_CTX_set0_crls+422801
+29: 00007FF7719AB1D0 X509_STORE_CTX_set0_crls+408016
+30: 00007FF7719AA206 X509_STORE_CTX_set0_crls+403974
+31: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+32: 00007FF7719AF02C X509_STORE_CTX_set0_crls+423980
+33: 00007FF7719AB5AA X509_STORE_CTX_set0_crls+409002
+34: 00007FF7719AA079 X509_STORE_CTX_set0_crls+403577
+35: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+36: 00007FF7719AEB91 X509_STORE_CTX_set0_crls+422801
+37: 00007FF7719AB1D0 X509_STORE_CTX_set0_crls+408016
+38: 00007FF7719AA206 X509_STORE_CTX_set0_crls+403974
+39: 00007FF7719A9C97 X509_STORE_CTX_set0_crls+402583
+40: 00007FF7719A9B99 X509_STORE_CTX_set0_crls+402329
+41: 00007FF771EDFEB2 v8::ValueDeserializer::ReadValue+290
+42: 00007FF773264070 node::MultiIsolatePlatform::DisposeIsolate+248784
+43: 00007FF77326FFEB node::MultiIsolatePlatform::DisposeIsolate+297803
+44: 000001C59FDCF77E
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 66% · rule 25% · rule2 12%  (best 22%)
+Traceback (most recent call last):
+  File "C:\card_rl\train\train.py", line 234, in <module>
+    res = venv.step(acts)
+          ^^^^^^^^^^^^^^^
+  File "C:\card_rl\train\common.py", line 185, in step
+    outs = self._call_all([{"cmd": "step", "actions": [int(a) for a in actions[i * k:(i + 1) * k]]}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\card_rl\train\common.py", line 175, in _call_all
+    return [self._recv(p) for p in self.procs]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\card_rl\train\common.py", line 175, in <listcomp>
+    return [self._recv(p) for p in self.procs]
+            ^^^^^^^^^^^^^
+  File "C:\card_rl\train\common.py", line 162, in _recv
+    raise RuntimeError("Node 환경 서버가 종료되었습니다 (node 설치/경로를 확인하세요).")
+RuntimeError: Node 환경 서버가 종료되었습니다 (node 설치/경로를 확인하세요).
+
+(cardrl) C:\card_rl>
+

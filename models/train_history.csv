@@ -1,0 +1,47 @@
+﻿label,model,start,end,elapsed_sec,elapsed,exit_code,last_eval
+r1_mc_1,mc_v112,2026-10-27 10:08:13,2026-10-27 10:13:50,337,5분 37초,0,games=8339  eps=0.05  loss=0.192  vs_random=0.8  vs_rule=0.38  vs_rule2=0.12  best_score=0.31
+r1_mc_2,mc_v112,2026-10-27 10:13:50,2026-10-27 10:19:15,325,5분 25초,0,games=12625  eps=0.05  loss=0.1545  vs_random=0.6  vs_rule=0.21  vs_rule2=0.06  best_score=0.31
+r1_mc_3,mc_v112,2026-10-27 10:19:15,2026-10-27 10:24:40,324,5분 24초,0,games=18232  eps=0.05  loss=0.1648  vs_random=0.8  vs_rule=0.46  vs_rule2=0.25  best_score=0.355
+eval_rl_dqn_v112_best,,2026-10-27 10:18:09,2026-10-27 10:25:20,430,7분 10초,0,
+r1_dqn_1,dqn_v112,2026-10-27 10:24:40,2026-10-27 10:30:05,325,5분 25초,0,games=63456  eps=0.05  loss=0.0068  vs_random=0.99  vs_rule=0.81  vs_rule2=0.6  best_score=0.755
+eval_rl_sarsa_v112_best,,2026-10-27 10:25:20,2026-10-27 10:30:44,324,5분 24초,0,
+eval_rl_mc_v112_best,,2026-10-27 10:30:44,2026-10-27 10:35:16,271,4분 31초,0,
+r1_dqn_2,dqn_v112,2026-10-27 10:30:05,2026-10-27 10:35:31,326,5분 26초,0,games=66089  eps=0.05  loss=37751.0319  vs_random=0.98  vs_rule=0.84  vs_rule2=0.65  best_score=0.755
+eval_rl_ppo_v112_best,,2026-10-27 10:35:16,2026-10-27 10:40:35,318,5분 18초,0,
+r1_dqn_3,dqn_v112,2026-10-27 10:35:31,2026-10-27 10:40:57,325,5분 25초,0,games=69252  eps=0.05  loss=0.0073  vs_random=0.98  vs_rule=0.84  vs_rule2=0.6  best_score=0.755
+r1_sarsa_1,sarsa_v112,2026-10-27 10:40:57,2026-10-27 10:46:22,324,5분 24초,0,games=64794  eps=0.05  loss=0.0078  vs_random=0.99  vs_rule=0.74  vs_rule2=0.5  best_score=0.745
+r1_sarsa_2,sarsa_v112,2026-10-27 10:46:22,2026-10-27 10:51:47,325,5분 25초,0,games=69590  eps=0.05  loss=0.0084  vs_random=0.99  vs_rule=0.72  vs_rule2=0.54  best_score=0.76
+r1_sarsa_3,sarsa_v112,2026-10-27 10:51:48,2026-10-27 10:57:12,324,5분 24초,0,games=74199  eps=0.05  loss=0.0073  vs_random=1.0  vs_rule=0.85  vs_rule2=0.67  best_score=0.76
+r1_ppo_1,ppo_v112,2026-10-27 10:57:12,2026-10-27 11:02:55,342,5분 42초,0,games=65101  updates=257  ent=0.428  kl=0.0063  vs_random=0.97  vs_rule=0.78  vs_rule2=0.56  vs_eval_opp=0.38  best_score=0.67
+r1_ppo_2,ppo_v112,2026-10-27 11:02:55,2026-10-27 11:08:30,334,5분 34초,0,games=69871  updates=276  ent=0.488  kl=0.0054  vs_random=0.98  vs_rule=0.78  vs_rule2=0.59  vs_eval_opp=0.44  best_score=0.67
+r1_ppo_3,ppo_v112,2026-10-27 11:08:30,2026-10-27 11:14:15,345,5분 45초,0,games=74686  updates=295  ent=0.484  kl=0.0052  vs_random=0.99  vs_rule=0.74  vs_rule2=0.54  vs_eval_opp=0.39  best_score=0.67
+r1_eval_dqn,,2026-10-27 11:14:15,2026-10-27 11:17:49,213,3분 33초,0,
+r1_eval_sarsa,,2026-10-27 11:17:49,2026-10-27 11:21:03,193,3분 13초,0,
+r1_eval_mc,,2026-10-27 11:21:03,2026-10-27 11:23:45,162,2분 42초,0,
+r1_eval_ppo,,2026-10-27 11:23:45,2026-10-27 11:26:48,183,3분 03초,0,
+eval_rl_dqn_v112_best,,2026-10-27 11:36:43,2026-10-27 11:41:56,313,5분 13초,0,
+eval_rl_sarsa_v112_best,,2026-10-27 11:41:56,2026-10-27 11:46:58,301,5분 01초,0,
+eval_rl_mc_v112_best,,2026-10-27 11:46:58,2026-10-27 11:51:11,253,4분 13초,0,
+eval_rl_ppo_v112_best,,2026-10-27 11:51:11,2026-10-27 11:56:35,323,5분 23초,0,
+r2_mc_1,mc_v112,2026-10-27 11:45:40,2026-10-27 11:58:15,754,12분 34초,0,games=30000  eps=0.05  loss=0.1683  vs_random=0.67  vs_rule=0.37  vs_rule2=0.09  best_score=0.355
+r2_mc_2,mc_v112,2026-10-27 11:58:15,2026-10-27 12:09:29,674,11분 14초,0,games=40000  eps=0.05  loss=0.1599  vs_random=0.75  vs_rule=0.33  vs_rule2=0.1  best_score=0.355
+r2_mc_3,mc_v112,2026-10-27 12:09:30,2026-10-27 12:19:37,607,10분 07초,0,games=50000  eps=0.05  loss=0.1166  vs_random=0.57  vs_rule=0.17  vs_rule2=0.09  best_score=0.355
+r2_dqn_1,dqn_v112,2026-10-27 12:19:37,2026-10-27 12:35:31,953,15분 53초,0,games=80000  eps=0.05  loss=0.0071  vs_random=1.0  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+r2_dqn_2,dqn_v112,2026-10-27 12:35:31,2026-10-27 12:50:21,890,14분 50초,0,games=90002  eps=0.05  loss=0.0069  vs_random=0.98  vs_rule=0.84  vs_rule2=0.67  best_score=0.81
+r2_dqn_3,dqn_v112,2026-10-27 12:50:21,2026-10-27 13:05:19,898,14분 58초,0,games=100000  eps=0.05  loss=0.0063  vs_random=0.98  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+r2_sarsa_1,sarsa_v112,2026-10-27 13:05:19,2026-10-27 13:16:22,662,11분 02초,0,games=85001  eps=0.05  loss=0.0077  vs_random=0.98  vs_rule=0.78  vs_rule2=0.58  best_score=0.76
+eval_rl_dqn_v112_best,,2026-10-27 13:18:15,2026-10-27 13:23:26,311,5분 11초,0,
+r2_sarsa_2,sarsa_v112,2026-10-27 13:16:22,2026-10-27 13:28:05,702,11분 42초,0,games=95000  eps=0.05  loss=0.0074  vs_random=0.99  vs_rule=0.8  vs_rule2=0.62  best_score=0.77
+eval_rl_sarsa_v112_best,,2026-10-27 13:23:26,2026-10-27 13:28:11,285,4분 45초,0,
+eval_rl_mc_v112_best,,2026-10-27 13:28:11,2026-10-27 13:32:26,254,4분 14초,0,
+eval_rl_ppo_v112_best,,2026-10-27 13:32:26,2026-10-27 13:37:05,278,4분 38초,0,
+r2_sarsa_3,sarsa_v112,2026-10-27 13:28:05,2026-10-27 13:40:18,732,12분 12초,0,games=105000  eps=0.05  loss=218.8651  vs_random=0.98  vs_rule=0.82  vs_rule2=0.67  best_score=0.77
+r2_ppo_1,ppo_v112,2026-10-27 13:40:18,2026-10-27 13:53:08,770,12분 50초,0,games=85037  updates=336  ent=0.537  kl=0.0041  vs_random=0.97  vs_rule=0.74  vs_rule2=0.57  vs_eval_opp=0.41  best_score=0.67
+r2_ppo_2,ppo_v112,2026-10-27 13:53:08,2026-10-27 14:02:21,552,9분 12초,1,games=92649  updates=365  ent=0.529  kl=0.0059  vs_random=0.98  vs_rule=0.81  vs_rule2=0.6  vs_eval_opp=0.29  best_score=0.67
+r3_dqn_1,dqn_v113,2026-10-29 16:25:39,2026-10-29 16:26:08,29,0분 29초,0,games=100000  eps=1.0  loss=0  vs_random=0.97  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+r3_dqn_2,dqn_v113,2026-10-29 16:26:09,2026-10-29 16:26:33,24,0분 24초,0,games=100000  eps=1.0  loss=0  vs_random=0.99  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+r3_dqn_3,dqn_v113,2026-10-29 16:26:33,2026-10-29 16:26:47,14,0분 14초,130,games=100000  eps=1.0  loss=0  vs_random=0.99  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+r4_dqn_1,dqn_v113,2026-10-29 16:30:03,2026-10-29 19:09:57,9593,2시간 39분 53초,0,games=200001  eps=0.05  loss=0.0069  vs_random=0.99  vs_rule=0.94  vs_rule2=0.76  best_score=0.85
+r4_dqn_2,dqn_v113,2026-10-29 19:09:57,2026-10-29 21:44:35,9277,2시간 34분 37초,0,games=300001  eps=0.05  loss=0.0069  vs_random=0.99  vs_rule=0.89  vs_rule2=0.71  best_score=0.85
+r4_dqn_3,dqn_v113,2026-10-29 21:44:35,2026-10-30 00:19:03,9268,2시간 34분 28초,0,games=400002  eps=0.05  loss=0.0072  vs_random=1.0  vs_rule=0.89  vs_rule2=0.68  best_score=0.85
+r4_eval_dqn,,2026-10-30 00:19:03,2026-10-30 00:30:01,658,10분 58초,0,

@@ -1,0 +1,1714 @@
+
+==============================================================================
+[r1_mc_1] 시작 2026-10-27 10:08:13
+명령: train\train.py --algo mc --name mc_v112 --games 10000 --minutes 5 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10
+==============================================================================
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+이어서 학습: 이미 3316판
+경기 3697/10000  663 결정/초  탐험 0.12  손실 0.182  최근 학습승률(탐험 포함) 21%
+경기 4023/10000  625 결정/초  탐험 0.05  손실 0.166  최근 학습승률(탐험 포함) 28%
+경기 4396/10000  620 결정/초  탐험 0.05  손실 0.168  최근 학습승률(탐험 포함) 26%
+경기 4780/10000  617 결정/초  탐험 0.05  손실 0.167  최근 학습승률(탐험 포함) 24%
+경기 5199/10000  612 결정/초  탐험 0.05  손실 0.172  최근 학습승률(탐험 포함) 23%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 84% · rule 41% · rule2 21%  (best 31%)
+경기 5324/10000  502 결정/초  탐험 0.05  손실 0.170  최근 학습승률(탐험 포함) 21%
+경기 5723/10000  517 결정/초  탐험 0.05  손실 0.171  최근 학습승률(탐험 포함) 21%
+경기 6122/10000  527 결정/초  탐험 0.05  손실 0.174  최근 학습승률(탐험 포함) 19%
+경기 6522/10000  538 결정/초  탐험 0.05  손실 0.179  최근 학습승률(탐험 포함) 21%
+경기 6952/10000  545 결정/초  탐험 0.05  손실 0.182  최근 학습승률(탐험 포함) 20%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 58% · rule 12% · rule2 8%  (best 31%)
+경기 7320/10000  510 결정/초  탐험 0.05  손실 0.189  최근 학습승률(탐험 포함) 22%
+경기 7707/10000  518 결정/초  탐험 0.05  손실 0.194  최근 학습승률(탐험 포함) 21%
+경기 8121/10000  524 결정/초  탐험 0.05  손실 0.190  최근 학습승률(탐험 포함) 18%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 80% · rule 38% · rule2 12%  (best 31%)
+완료. 모델 위치: C:\card_rl\train\..\models\mc_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_mc_1] 끝 10:13:50   소요 5분 37초   종료코드 0
+[r1_mc_1] 마지막 평가: games=8339  eps=0.05  loss=0.192  vs_random=0.8  vs_rule=0.38  vs_rule2=0.12  best_score=0.31
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_mc_2] 시작 2026-10-27 10:13:50
+명령: train\train.py --algo mc --name mc_v112 --games 20000 --minutes 5 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15
+==============================================================================
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+이어서 학습: 이미 8339판
+경기 8695/20000  656 결정/초  탐험 0.05  손실 0.143  최근 학습승률(탐험 포함) 18%
+경기 9045/20000  616 결정/초  탐험 0.05  손실 0.112  최근 학습승률(탐험 포함) 14%
+경기 9373/20000  610 결정/초  탐험 0.05  손실 0.116  최근 학습승률(탐험 포함) 16%
+경기 9725/20000  611 결정/초  탐험 0.05  손실 0.121  최근 학습승률(탐험 포함) 15%
+경기 10069/20000  605 결정/초  탐험 0.05  손실 0.118  최근 학습승률(탐험 포함) 12%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 69% · rule 24% · rule2 14%  (best 31%)
+경기 10344/20000  490 결정/초  탐험 0.05  손실 0.119  최근 학습승률(탐험 포함) 14%
+경기 10687/20000  507 결정/초  탐험 0.05  손실 0.123  최근 학습승률(탐험 포함) 15%
+경기 11008/20000  517 결정/초  탐험 0.05  손실 0.126  최근 학습승률(탐험 포함) 17%
+경기 11368/20000  526 결정/초  탐험 0.05  손실 0.131  최근 학습승률(탐험 포함) 18%
+경기 11674/20000  532 결정/초  탐험 0.05  손실 0.141  최근 학습승률(탐험 포함) 16%
+경기 12028/20000  538 결정/초  탐험 0.05  손실 0.144  최근 학습승률(탐험 포함) 17%
+
+==============================================================================
+[eval_rl_dqn_v112_best] 시작 2026-10-27 10:18:09
+명령: node train\eval_vs.js rl_dqn_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_dqn_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        98.0%  (294승 6패, 95%CI 95.7–99.1%)  무 0 멈춤 0 오류 0  18s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 45% · rule 28% · rule2 6%  (best 31%)
+경기 12341/20000  506 결정/초  탐험 0.05  손실 0.152  최근 학습승률(탐험 포함) 21%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 60% · rule 21% · rule2 6%  (best 31%)
+완료. 모델 위치: C:\card_rl\train\..\models\mc_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_mc_2] 끝 10:19:15   소요 5분 25초   종료코드 0
+[r1_mc_2] 마지막 평가: games=12625  eps=0.05  loss=0.1545  vs_random=0.6  vs_rule=0.21  vs_rule2=0.06  best_score=0.31
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_mc_3] 시작 2026-10-27 10:19:15
+명령: train\train.py --algo mc --name mc_v112 --games 30000 --minutes 5 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20
+==============================================================================
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+  vs rule          78.6%  (235승 64패, 95%CI 73.6–82.9%)  무 0 멈춤 1 오류 0  52s
+    멈춤 예시: 턴 16, 행동 상한(3000) 초과, 마지막 행동: B:CHOOSE B:PLAY_CARD#1543 B:CHOOSE B:PLAY_CARD#1544 B:CHOOSE B:PLAY_CARD#1545 B:CHOOSE B:PLAY_CARD#1546
+이어서 학습: 이미 12625판
+경기 13089/30000  591 결정/초  탐험 0.05  손실 0.110  최근 학습승률(탐험 포함) 8%
+  vs rule2         62.0%  (186승 114패, 95%CI 56.4–67.3%)  무 0 멈춤 0 오류 0  29s
+경기 13635/30000  538 결정/초  탐험 0.05  손실 0.073  최근 학습승률(탐험 포함) 5%
+경기 14221/30000  527 결정/초  탐험 0.05  손실 0.056  최근 학습승률(탐험 포함) 6%
+  vs rl_dqn_v112   51.3%  (154승 146패, 95%CI 45.7–56.9%)  무 0 멈춤 0 오류 0  49s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 38% · rule 9% · rule2 4%  (best 31%)
+경기 14635/30000  442 결정/초  탐험 0.05  손실 0.061  최근 학습승률(탐험 포함) 9%
+  vs rl_mc_v112    89.7%  (269승 31패, 95%CI 85.7–92.6%)  무 0 멈춤 0 오류 0  31s
+경기 15077/30000  450 결정/초  탐험 0.05  손실 0.067  최근 학습승률(탐험 포함) 9%
+경기 15495/30000  458 결정/초  탐험 0.05  손실 0.080  최근 학습승률(탐험 포함) 12%
+  vs rl_mc_v112_best  90.0%  (270승 30패, 95%CI 86.1–92.9%)  무 0 멈춤 0 오류 0  33s
+경기 15945/30000  467 결정/초  탐험 0.05  손실 0.083  최근 학습승률(탐험 포함) 12%
+경기 16365/30000  473 결정/초  탐험 0.05  손실 0.088  최근 학습승률(탐험 포함) 13%
+  vs rl_ppo_v112   59.3%  (178승 122패, 95%CI 53.7–64.7%)  무 0 멈춤 0 오류 0  38s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 82% · rule 30% · rule2 14%  (best 31%)
+경기 16630/30000  435 결정/초  탐험 0.05  손실 0.096  최근 학습승률(탐험 포함) 16%
+경기 16965/30000  442 결정/초  탐험 0.05  손실 0.105  최근 학습승률(탐험 포함) 18%
+  vs rl_ppo_v112_best  61.9%  (185승 114패, 95%CI 56.2–67.2%)  무 0 멈춤 1 오류 0  61s
+    멈춤 예시: 턴 33, 행동 상한(3000) 초과, 마지막 행동: B:PLAY_CARD#1550 B:CHOOSE B:PLAY_CARD#1551 B:CHOOSE B:PLAY_CARD#1552 B:CHOOSE B:PLAY_CARD#1553 B:CHOOSE
+경기 17307/30000  452 결정/초  탐험 0.05  손실 0.117  최근 학습승률(탐험 포함) 20%
+경기 17642/30000  459 결정/초  탐험 0.05  손실 0.135  최근 학습승률(탐험 포함) 24%
+경기 17980/30000  469 결정/초  탐험 0.05  손실 0.152  최근 학습승률(탐험 포함) 28%
+  vs rl_sarsa_v112  67.6%  (202승 97패, 95%CI 62.1–72.6%)  무 0 멈춤 1 오류 0  75s
+    멈춤 예시: 턴 2, 행동 상한(3000) 초과, 마지막 행동: A:PLAY_CARD#1562 A:CHOOSE A:PLAY_CARD#1563 A:CHOOSE A:PLAY_CARD#1564 A:CHOOSE A:PLAY_CARD#1565 A:CHOOSE
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 80% · rule 46% · rule2 25%  (best 36%)
+완료. 모델 위치: C:\card_rl\train\..\models\mc_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_mc_3] 끝 10:24:40   소요 5분 24초   종료코드 0
+[r1_mc_3] 마지막 평가: games=18232  eps=0.05  loss=0.1648  vs_random=0.8  vs_rule=0.46  vs_rule2=0.25  best_score=0.355
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_dqn_1] 시작 2026-10-27 10:24:40
+명령: train\train.py --algo dqn --name dqn_v112 --games 70000 --minutes 5 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10
+==============================================================================
+[dqn] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\dqn_v112
+이어서 학습: 이미 60000판
+경기 60270/70000  606 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+  vs rl_sarsa_v112_best  59.2%  (177승 122패, 95%CI 53.5–64.6%)  무 1 멈춤 0 오류 0  44s
+------------------------------------------------------------------------------
+[eval_rl_dqn_v112_best] 끝 10:25:20   소요 7분 10초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_sarsa_v112_best] 시작 2026-10-27 10:25:20
+명령: node train\eval_vs.js rl_sarsa_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_sarsa_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+경기 60500/70000  553 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 66%
+  vs random        98.0%  (294승 6패, 95%CI 95.7–99.1%)  무 0 멈춤 0 오류 0  17s
+경기 60741/70000  541 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+  vs rule          75.0%  (225승 75패, 95%CI 69.8–79.6%)  무 0 멈춤 0 오류 0  25s
+경기 60999/70000  537 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 68%
+경기 61264/70000  535 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 72%
+  vs rule2         63.7%  (191승 109패, 95%CI 58.1–68.9%)  무 0 멈춤 0 오류 0  25s
+경기 61509/70000  530 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 72%
+경기 61749/70000  526 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+  vs rl_dqn_v112   45.0%  (135승 165패, 95%CI 39.5–50.7%)  무 0 멈춤 0 오류 0  46s
+경기 61999/70000  527 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 61%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 83% · rule2 59%  (best 76%)
+경기 62003/70000  463 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 61%
+  vs rl_dqn_v112_best  47.7%  (143승 157패, 95%CI 42.1–53.3%)  무 0 멈춤 0 오류 0  46s
+경기 62228/70000  467 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+  vs rl_mc_v112    79.3%  (238승 62패, 95%CI 74.4–83.5%)  무 0 멈춤 0 오류 0  27s
+경기 62468/70000  471 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 62720/70000  476 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+  vs rl_mc_v112_best  85.3%  (256승 44패, 95%CI 80.9–88.9%)  무 0 멈춤 0 오류 0  29s
+경기 62971/70000  481 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 63237/70000  486 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+  vs rl_ppo_v112   57.0%  (171승 129패, 95%CI 51.3–62.5%)  무 0 멈춤 0 오류 0  35s
+  vs rl_ppo_v112_best  59.7%  (179승 121패, 95%CI 54.0–65.1%)  무 0 멈춤 0 오류 0  32s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 81% · rule2 60%  (best 76%)
+완료. 모델 위치: C:\card_rl\train\..\models\dqn_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_dqn_1] 끝 10:30:05   소요 5분 25초   종료코드 0
+[r1_dqn_1] 마지막 평가: games=63456  eps=0.05  loss=0.0068  vs_random=0.99  vs_rule=0.81  vs_rule2=0.6  best_score=0.755
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_dqn_2] 시작 2026-10-27 10:30:05
+명령: train\train.py --algo dqn --name dqn_v112 --games 80000 --minutes 5 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15
+==============================================================================
+[dqn] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\dqn_v112
+이어서 학습: 이미 63456판
+경기 63701/80000  557 결정/초  탐험 0.05  손실 0.005  최근 학습승률(탐험 포함) 70%
+  vs rl_sarsa_v112  64.5%  (193승 106패, 95%CI 59.0–69.8%)  무 1 멈춤 0 오류 0  42s
+------------------------------------------------------------------------------
+[eval_rl_sarsa_v112_best] 끝 10:30:44   소요 5분 24초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_mc_v112_best] 시작 2026-10-27 10:30:44
+명령: node train\eval_vs.js rl_mc_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_mc_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+경기 63959/80000  539 결정/초  탐험 0.05  손실 0.005  최근 학습승률(탐험 포함) 68%
+  vs random        89.3%  (268승 32패, 95%CI 85.3–92.3%)  무 0 멈춤 0 오류 0  23s
+경기 64193/80000  532 결정/초  탐험 0.05  손실 0.005  최근 학습승률(탐험 포함) 67%
+경기 64451/80000  526 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 64%
+  vs rule          43.3%  (130승 170패, 95%CI 37.8–49.0%)  무 0 멈춤 0 오류 0  27s
+경기 64711/80000  526 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+  vs rule2         22.3%  (67승 233패, 95%CI 18.0–27.4%)  무 0 멈춤 0 오류 0  19s
+경기 64971/80000  525 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+  vs rl_dqn_v112   11.7%  (35승 265패, 95%CI 8.5–15.8%)  무 0 멈춤 0 오류 0  30s
+경기 65204/80000  524 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+경기 65418/80000  517 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+  vs rl_dqn_v112_best  14.3%  (43승 257패, 95%CI 10.8–18.8%)  무 0 멈춤 0 오류 0  32s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 85% · rule2 60%  (best 76%)
+경기 65459/80000  461 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+  vs rl_mc_v112    47.0%  (141승 159패, 95%CI 41.4–52.7%)  무 0 멈춤 0 오류 0  28s
+  vs rl_ppo_v112   19.0%  (57승 243패, 95%CI 15.0–23.8%)  무 0 멈춤 0 오류 0  25s
+  vs rl_ppo_v112_best  20.3%  (61승 239패, 95%CI 16.2–25.2%)  무 0 멈춤 0 오류 0  26s
+경기 65661/80000  352 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 62%
+  vs rl_sarsa_v112  20.3%  (61승 239패, 95%CI 16.2–25.2%)  무 0 멈춤 0 오류 0  32s
+경기 65871/80000  362 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+  vs rl_sarsa_v112_best  19.0%  (57승 243패, 95%CI 15.0–23.8%)  무 0 멈춤 0 오류 0  29s
+------------------------------------------------------------------------------
+[eval_rl_mc_v112_best] 끝 10:35:16   소요 4분 31초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_ppo_v112_best] 시작 2026-10-27 10:35:16
+명령: node train\eval_vs.js rl_ppo_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_ppo_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 84% · rule2 65%  (best 76%)
+완료. 모델 위치: C:\card_rl\train\..\models\dqn_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_dqn_2] 끝 10:35:31   소요 5분 26초   종료코드 0
+[r1_dqn_2] 마지막 평가: games=66089  eps=0.05  loss=37751.0319  vs_random=0.98  vs_rule=0.84  vs_rule2=0.65  best_score=0.755
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_dqn_3] 시작 2026-10-27 10:35:31
+명령: train\train.py --algo dqn --name dqn_v112 --games 90000 --minutes 5 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20
+==============================================================================
+[dqn] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+  vs random        96.7%  (290승 10패, 95%CI 94.0–98.2%)  무 0 멈춤 0 오류 0  17s
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\dqn_v112
+이어서 학습: 이미 66089판
+경기 66322/90000  562 결정/초  탐험 0.05  손실 0.005  최근 학습승률(탐험 포함) 58%
+  vs rule          68.7%  (206승 94패, 95%CI 63.2–73.7%)  무 0 멈춤 0 오류 0  26s
+경기 66561/90000  522 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 62%
+경기 66781/90000  502 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 62%
+  vs rule2         51.8%  (155승 144패, 95%CI 46.2–57.4%)  무 0 멈춤 1 오류 0  41s
+    멈춤 예시: 턴 34, 행동 상한(3000) 초과, 마지막 행동: B:PLAY_CARD#3946 B:PLAY_CARD#3947 B:PLAY_CARD#3948 B:PLAY_CARD#3950 B:PLAY_CARD#3951 B:PLAY_CARD#3952 B:PLAY_CARD#3954 B:PLAY_CARD#3955
+경기 66996/90000  491 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 62%
+경기 67241/90000  490 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 59%
+  vs rl_dqn_v112   36.3%  (109승 191패, 95%CI 31.1–41.9%)  무 0 멈춤 0 오류 0  39s
+경기 67446/90000  487 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 57%
+  vs rl_dqn_v112_best  36.7%  (110승 190패, 95%CI 31.4–42.3%)  무 0 멈춤 0 오류 0  36s
+경기 67688/90000  486 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 59%
+경기 67907/90000  487 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 58%
+  vs rl_mc_v112    77.3%  (232승 68패, 95%CI 72.3–81.7%)  무 0 멈춤 0 오류 0  28s
+  vs rl_mc_v112_best  74.7%  (224승 76패, 95%CI 69.5–79.3%)  무 0 멈춤 0 오류 0  29s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 77% · rule2 59%  (best 76%)
+경기 68093/90000  435 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 59%
+경기 68329/90000  441 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  vs rl_ppo_v112   48.3%  (145승 155패, 95%CI 42.7–54.0%)  무 0 멈춤 0 오류 0  30s
+경기 68561/90000  445 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 68776/90000  449 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+  vs rl_sarsa_v112  53.0%  (159승 141패, 95%CI 47.3–58.6%)  무 0 멈춤 0 오류 0  38s
+경기 69014/90000  450 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 58%
+경기 69240/90000  453 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 57%
+  vs rl_sarsa_v112_best  42.3%  (127승 173패, 95%CI 36.9–48.0%)  무 0 멈춤 0 오류 0  35s
+------------------------------------------------------------------------------
+[eval_rl_ppo_v112_best] 끝 10:40:35   소요 5분 18초   종료코드 0
+------------------------------------------------------------------------------
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 84% · rule2 60%  (best 76%)
+완료. 모델 위치: C:\card_rl\train\..\models\dqn_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_dqn_3] 끝 10:40:57   소요 5분 25초   종료코드 0
+[r1_dqn_3] 마지막 평가: games=69252  eps=0.05  loss=0.0073  vs_random=0.98  vs_rule=0.84  vs_rule2=0.6  best_score=0.755
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_sarsa_1] 시작 2026-10-27 10:40:57
+명령: train\train.py --algo sarsa --name sarsa_v112 --games 70000 --minutes 5 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10
+==============================================================================
+[sarsa] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\sarsa_v112
+이어서 학습: 이미 60003판
+경기 60313/70000  713 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 58%
+경기 60674/70000  724 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 59%
+경기 61044/70000  735 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 58%
+경기 61416/70000  743 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 61%
+경기 61782/70000  745 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 60%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 97% · rule 79% · rule2 58%  (best 74%)
+경기 62006/70000  634 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 57%
+경기 62371/70000  651 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 58%
+경기 62768/70000  670 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 62%
+경기 63148/70000  681 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 63%
+경기 63505/70000  687 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 62%
+경기 63890/70000  693 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 58%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 96% · rule 66% · rule2 52%  (best 74%)
+경기 64003/70000  640 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 58%
+경기 64380/70000  650 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 61%
+경기 64761/70000  658 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 57%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 74% · rule2 50%  (best 74%)
+완료. 모델 위치: C:\card_rl\train\..\models\sarsa_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_sarsa_1] 끝 10:46:22   소요 5분 24초   종료코드 0
+[r1_sarsa_1] 마지막 평가: games=64794  eps=0.05  loss=0.0078  vs_random=0.99  vs_rule=0.74  vs_rule2=0.5  best_score=0.745
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_sarsa_2] 시작 2026-10-27 10:46:22
+명령: train\train.py --algo sarsa --name sarsa_v112 --games 80000 --minutes 5 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15
+==============================================================================
+[sarsa] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\sarsa_v112
+이어서 학습: 이미 64794판
+경기 65098/80000  687 결정/초  탐험 0.05  손실 0.005  최근 학습승률(탐험 포함) 64%
+경기 65483/80000  725 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 65881/80000  740 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 66263/80000  751 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 66624/80000  754 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 96% · rule 86% · rule2 66%  (best 76%)
+경기 66796/80000  636 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 67166/80000  651 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 67510/80000  662 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 67874/80000  671 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 68246/80000  679 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 68646/80000  686 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 55%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 84% · rule2 56%  (best 76%)
+경기 68801/80000  640 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 53%
+경기 69164/80000  648 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 55%
+경기 69528/80000  655 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 55%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 72% · rule2 54%  (best 76%)
+완료. 모델 위치: C:\card_rl\train\..\models\sarsa_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_sarsa_2] 끝 10:51:47   소요 5분 25초   종료코드 0
+[r1_sarsa_2] 마지막 평가: games=69590  eps=0.05  loss=0.0084  vs_random=0.99  vs_rule=0.72  vs_rule2=0.54  best_score=0.76
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_sarsa_3] 시작 2026-10-27 10:51:48
+명령: train\train.py --algo sarsa --name sarsa_v112 --games 90000 --minutes 5 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20
+==============================================================================
+[sarsa] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\sarsa_v112
+이어서 학습: 이미 69590판
+경기 69914/90000  740 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 54%
+경기 70272/90000  736 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 60%
+경기 70634/90000  742 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 61%
+경기 71012/90000  745 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 56%
+경기 71356/90000  747 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 56%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 83% · rule2 64%  (best 76%)
+경기 71590/90000  640 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 56%
+경기 71921/90000  645 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 59%
+경기 72274/90000  658 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 59%
+경기 72618/90000  667 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 58%
+경기 72990/90000  675 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 57%
+경기 73347/90000  685 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 59%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 79% · rule2 65%  (best 76%)
+경기 73597/90000  642 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 73935/90000  649 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 85% · rule2 67%  (best 76%)
+완료. 모델 위치: C:\card_rl\train\..\models\sarsa_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_sarsa_3] 끝 10:57:12   소요 5분 24초   종료코드 0
+[r1_sarsa_3] 마지막 평가: games=74199  eps=0.05  loss=0.0073  vs_random=1.0  vs_rule=0.85  vs_rule2=0.67  best_score=0.76
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_ppo_1] 시작 2026-10-27 10:57:12
+명령: train\ppo.py --name ppo_v112 --games 70000 --minutes 5 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10 --eval-vs rl_dqn_v112_best
+==============================================================================
+[ppo] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\ppo_v112
+이어서 학습: 이미 60062판, 업데이트 237번
+경기 60545/70000  760 결정/초  업데이트 239  엔트로피 0.38  KL 0.0066  가치손실 0.066  최근 학습승률 59% (rl_ppo_v112_best:54% rl_dqn_v112_best:29% rule:71% rule2:48% rl_sarsa_v112_best:36% rl_mc_v112_best:90% random:100%)
+경기 61048/70000  774 결정/초  업데이트 241  엔트로피 0.41  KL 0.0052  가치손실 0.067  최근 학습승률 59% (rl_ppo_v112_best:45% rl_dqn_v112_best:26% rule:75% rule2:48% rl_sarsa_v112_best:40% rl_mc_v112_best:85% random:100%)
+경기 61554/70000  785 결정/초  업데이트 243  엔트로피 0.39  KL 0.0043  가치손실 0.059  최근 학습승률 64% (rl_ppo_v112_best:47% rl_dqn_v112_best:30% rule:77% rule2:56% rl_sarsa_v112_best:40% rl_mc_v112_best:84% random:100%)
+경기 62034/70000  788 결정/초  업데이트 245  엔트로피 0.40  KL 0.0053  가치손실 0.056  최근 학습승률 62% (rl_ppo_v112_best:47% rl_dqn_v112_best:33% rule:76% rule2:60% rl_sarsa_v112_best:40% rl_mc_v112_best:82% random:99%)
+  ▶ 평가(탐험 없음, 100판씩) random 98% · rule 79% · rule2 50% · rl_dqn_v112_best 39%  (best 점수 67%)
+경기 62525/70000  642 결정/초  업데이트 247  엔트로피 0.40  KL 0.0045  가치손실 0.065  최근 학습승률 61% (rl_ppo_v112_best:46% rl_dqn_v112_best:34% rule:72% rule2:56% rl_sarsa_v112_best:44% rl_mc_v112_best:82% random:98%)
+경기 63050/70000  671 결정/초  업데이트 249  엔트로피 0.40  KL 0.0044  가치손실 0.068  최근 학습승률 60% (rl_ppo_v112_best:50% rl_dqn_v112_best:36% rule:71% rule2:51% rl_sarsa_v112_best:43% rl_mc_v112_best:80% random:98%)
+경기 63567/70000  693 결정/초  업데이트 251  엔트로피 0.40  KL 0.0032  가치손실 0.065  최근 학습승률 59% (rl_ppo_v112_best:55% rl_dqn_v112_best:36% rule:70% rule2:49% rl_sarsa_v112_best:40% rl_mc_v112_best:82% random:98%)
+경기 64088/70000  710 결정/초  업데이트 253  엔트로피 0.41  KL 0.0060  가치손실 0.060  최근 학습승률 58% (rl_ppo_v112_best:52% rl_dqn_v112_best:36% rule:68% rule2:48% rl_sarsa_v112_best:40% rl_mc_v112_best:80% random:96%)
+  ▶ 평가(탐험 없음, 100판씩) random 98% · rule 83% · rule2 55% · rl_dqn_v112_best 36%  (best 점수 67%)
+경기 64344/70000  636 결정/초  업데이트 254  엔트로피 0.39  KL 0.0032  가치손실 0.065  최근 학습승률 60% (rl_ppo_v112_best:54% rl_dqn_v112_best:39% rule:74% rule2:48% rl_sarsa_v112_best:38% rl_mc_v112_best:80% random:96%)
+경기 64838/70000  655 결정/초  업데이트 256  엔트로피 0.43  KL 0.0034  가치손실 0.061  최근 학습승률 64% (rl_ppo_v112_best:54% rl_dqn_v112_best:38% rule:76% rule2:51% rl_sarsa_v112_best:40% rl_mc_v112_best:82% random:98%)
+  ▶ 평가(탐험 없음, 100판씩) random 97% · rule 78% · rule2 56% · rl_dqn_v112_best 38%  (best 점수 67%)
+완료. 모델 위치: C:\card_rl\train\..\models\ppo_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_ppo_1] 끝 11:02:55   소요 5분 42초   종료코드 0
+[r1_ppo_1] 마지막 평가: games=65101  updates=257  ent=0.428  kl=0.0063  vs_random=0.97  vs_rule=0.78  vs_rule2=0.56  vs_eval_opp=0.38  best_score=0.67
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_ppo_2] 시작 2026-10-27 11:02:55
+명령: train\ppo.py --name ppo_v112 --games 80000 --minutes 5 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15 --eval-vs rl_dqn_v112_best
+==============================================================================
+[ppo] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\ppo_v112
+이어서 학습: 이미 65101판, 업데이트 257번
+경기 65586/80000  780 결정/초  업데이트 259  엔트로피 0.44  KL 0.0053  가치손실 0.066  최근 학습승률 53% (rule2:51% rl_ppo_v112_best:49% rl_sarsa_v112_best:31% rl_mc_v112_best:82% rl_dqn_v112_best:31% random:95% rule:58%)
+경기 66107/80000  794 결정/초  업데이트 261  엔트로피 0.44  KL 0.0047  가치손실 0.062  최근 학습승률 57% (rule2:55% rl_ppo_v112_best:47% rl_sarsa_v112_best:36% rl_mc_v112_best:82% rl_dqn_v112_best:31% random:98% rule:67%)
+경기 66623/80000  802 결정/초  업데이트 263  엔트로피 0.44  KL 0.0049  가치손실 0.065  최근 학습승률 56% (rule2:56% rl_ppo_v112_best:48% rl_sarsa_v112_best:35% rl_mc_v112_best:80% rl_dqn_v112_best:36% random:99% rule:69%)
+경기 67122/80000  804 결정/초  업데이트 265  엔트로피 0.45  KL 0.0046  가치손실 0.059  최근 학습승률 55% (rule2:50% rl_ppo_v112_best:50% rl_sarsa_v112_best:40% rl_mc_v112_best:76% rl_dqn_v112_best:40% random:97% rule:70%)
+  ▶ 평가(탐험 없음, 100판씩) random 97% · rule 83% · rule2 60% · rl_dqn_v112_best 32%  (best 점수 67%)
+경기 67366/80000  631 결정/초  업데이트 266  엔트로피 0.45  KL 0.0025  가치손실 0.061  최근 학습승률 52% (rule2:50% rl_ppo_v112_best:51% rl_sarsa_v112_best:36% rl_mc_v112_best:76% rl_dqn_v112_best:41% random:97% rule:72%)
+경기 67877/80000  658 결정/초  업데이트 268  엔트로피 0.44  KL 0.0045  가치손실 0.063  최근 학습승률 58% (rule2:56% rl_ppo_v112_best:49% rl_sarsa_v112_best:40% rl_mc_v112_best:78% rl_dqn_v112_best:38% random:97% rule:72%)
+경기 68371/80000  679 결정/초  업데이트 270  엔트로피 0.46  KL 0.0061  가치손실 0.057  최근 학습승률 60% (rule2:60% rl_ppo_v112_best:54% rl_sarsa_v112_best:38% rl_mc_v112_best:79% rl_dqn_v112_best:36% random:98% rule:74%)
+경기 68889/80000  695 결정/초  업데이트 272  엔트로피 0.46  KL 0.0063  가치손실 0.067  최근 학습승률 54% (rule2:49% rl_ppo_v112_best:52% rl_sarsa_v112_best:41% rl_mc_v112_best:82% rl_dqn_v112_best:34% random:98% rule:73%)
+  ▶ 평가(탐험 없음, 100판씩) random 97% · rule 75% · rule2 50% · rl_dqn_v112_best 33%  (best 점수 67%)
+경기 69392/80000  633 결정/초  업데이트 274  엔트로피 0.44  KL 0.0055  가치손실 0.062  최근 학습승률 57% (rule2:47% rl_ppo_v112_best:56% rl_sarsa_v112_best:38% rl_mc_v112_best:78% rl_dqn_v112_best:38% random:98% rule:74%)
+경기 69871/80000  647 결정/초  업데이트 276  엔트로피 0.49  KL 0.0054  가치손실 0.060  최근 학습승률 55% (rule2:52% rl_ppo_v112_best:56% rl_sarsa_v112_best:40% rl_mc_v112_best:76% rl_dqn_v112_best:42% random:98% rule:74%)
+  ▶ 평가(탐험 없음, 100판씩) random 98% · rule 78% · rule2 59% · rl_dqn_v112_best 44%  (best 점수 67%)
+완료. 모델 위치: C:\card_rl\train\..\models\ppo_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_ppo_2] 끝 11:08:30   소요 5분 34초   종료코드 0
+[r1_ppo_2] 마지막 평가: games=69871  updates=276  ent=0.488  kl=0.0054  vs_random=0.98  vs_rule=0.78  vs_rule2=0.59  vs_eval_opp=0.44  best_score=0.67
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_ppo_3] 시작 2026-10-27 11:08:30
+명령: train\ppo.py --name ppo_v112 --games 90000 --minutes 5 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20 --eval-vs rl_dqn_v112_best
+==============================================================================
+[ppo] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\ppo_v112
+이어서 학습: 이미 69871판, 업데이트 276번
+경기 70347/90000  752 결정/초  업데이트 278  엔트로피 0.48  KL 0.0048  가치손실 0.068  최근 학습승률 53% (rl_dqn_v112_best:36% rl_ppo_v112_best:53% rl_sarsa_v112_best:35% rl_mc_v112_best:77% rule2:49% rule:95%)
+경기 70862/90000  765 결정/초  업데이트 280  엔트로피 0.48  KL 0.0064  가치손실 0.058  최근 학습승률 54% (rl_dqn_v112_best:33% rl_ppo_v112_best:54% rl_sarsa_v112_best:39% rl_mc_v112_best:82% rule2:49% rule:80%)
+경기 71380/90000  766 결정/초  업데이트 282  엔트로피 0.49  KL 0.0046  가치손실 0.063  최근 학습승률 52% (rl_dqn_v112_best:30% rl_ppo_v112_best:52% rl_sarsa_v112_best:40% rl_mc_v112_best:82% rule2:53% rule:77%)
+경기 71869/90000  765 결정/초  업데이트 284  엔트로피 0.50  KL 0.0050  가치손실 0.062  최근 학습승률 55% (rl_dqn_v112_best:31% rl_ppo_v112_best:56% rl_sarsa_v112_best:40% rl_mc_v112_best:78% rule2:60% rule:76%)
+  ▶ 평가(탐험 없음, 100판씩) random 97% · rule 69% · rule2 55% · rl_dqn_v112_best 41%  (best 점수 67%)
+경기 72375/90000  620 결정/초  업데이트 286  엔트로피 0.53  KL 0.0062  가치손실 0.071  최근 학습승률 52% (rl_dqn_v112_best:36% rl_ppo_v112_best:53% rl_sarsa_v112_best:40% rl_mc_v112_best:74% rule2:58% rule:79%)
+경기 72888/90000  640 결정/초  업데이트 288  엔트로피 0.49  KL 0.0056  가치손실 0.065  최근 학습승률 51% (rl_dqn_v112_best:36% rl_ppo_v112_best:49% rl_sarsa_v112_best:40% rl_mc_v112_best:74% rule2:52% rule:78%)
+경기 73420/90000  659 결정/초  업데이트 290  엔트로피 0.49  KL 0.0037  가치손실 0.067  최근 학습승률 51% (rl_dqn_v112_best:35% rl_ppo_v112_best:50% rl_sarsa_v112_best:37% rl_mc_v112_best:76% rule2:52% rule:80%)
+경기 73930/90000  672 결정/초  업데이트 292  엔트로피 0.49  KL 0.0066  가치손실 0.064  최근 학습승률 56% (rl_dqn_v112_best:40% rl_ppo_v112_best:51% rl_sarsa_v112_best:34% rl_mc_v112_best:79% rule2:52% rule:80%)
+  ▶ 평가(탐험 없음, 100판씩) random 97% · rule 83% · rule2 51% · rl_dqn_v112_best 41%  (best 점수 67%)
+경기 74176/90000  611 결정/초  업데이트 293  엔트로피 0.49  KL 0.0054  가치손실 0.066  최근 학습승률 51% (rl_dqn_v112_best:44% rl_ppo_v112_best:48% rl_sarsa_v112_best:35% rl_mc_v112_best:82% rule2:52% rule:80%)
+경기 74686/90000  626 결정/초  업데이트 295  엔트로피 0.48  KL 0.0052  가치손실 0.066  최근 학습승률 51% (rl_dqn_v112_best:38% rl_ppo_v112_best:46% rl_sarsa_v112_best:40% rl_mc_v112_best:80% rule2:48% rule:78%)
+  ▶ 평가(탐험 없음, 100판씩) random 99% · rule 74% · rule2 54% · rl_dqn_v112_best 39%  (best 점수 67%)
+완료. 모델 위치: C:\card_rl\train\..\models\ppo_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r1_ppo_3] 끝 11:14:15   소요 5분 45초   종료코드 0
+[r1_ppo_3] 마지막 평가: games=74686  updates=295  ent=0.484  kl=0.0052  vs_random=0.99  vs_rule=0.74  vs_rule2=0.54  vs_eval_opp=0.39  best_score=0.67
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_eval_dqn] 시작 2026-10-27 11:14:15
+명령: node train\eval_vs.js rl_dqn_v112_best --games=200
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_dqn_v112_best: 각 상대와 200판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        98.5%  (197승 3패, 95%CI 95.7–99.5%)  무 0 멈춤 0 오류 0  12s
+  vs rule          80.5%  (161승 39패, 95%CI 74.5–85.4%)  무 0 멈춤 0 오류 0  17s
+  vs rule2         67.5%  (135승 65패, 95%CI 60.7–73.6%)  무 0 멈춤 0 오류 0  17s
+  vs rl_dqn_v112   55.5%  (111승 89패, 95%CI 48.6–62.2%)  무 0 멈춤 0 오류 0  32s
+  vs rl_mc_v112    90.0%  (180승 20패, 95%CI 85.1–93.4%)  무 0 멈춤 0 오류 0  19s
+  vs rl_mc_v112_best  88.0%  (176승 24패, 95%CI 82.8–91.8%)  무 0 멈춤 0 오류 0  19s
+  vs rl_ppo_v112   57.5%  (115승 85패, 95%CI 50.6–64.1%)  무 0 멈춤 0 오류 0  24s
+  vs rl_ppo_v112_best  73.0%  (146승 54패, 95%CI 66.5–78.7%)  무 0 멈춤 0 오류 0  22s
+  vs rl_sarsa_v112  45.0%  (90승 110패, 95%CI 38.3–51.9%)  무 0 멈춤 0 오류 0  26s
+  vs rl_sarsa_v112_best  54.5%  (109승 91패, 95%CI 47.6–61.3%)  무 0 멈춤 0 오류 0  26s
+------------------------------------------------------------------------------
+[r1_eval_dqn] 끝 11:17:49   소요 3분 33초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_eval_sarsa] 시작 2026-10-27 11:17:49
+명령: node train\eval_vs.js rl_sarsa_v112_best --games=200
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_sarsa_v112_best: 각 상대와 200판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        98.5%  (197승 3패, 95%CI 95.7–99.5%)  무 0 멈춤 0 오류 0  11s
+  vs rule          69.0%  (138승 62패, 95%CI 62.3–75.0%)  무 0 멈춤 0 오류 0  16s
+  vs rule2         64.0%  (128승 72패, 95%CI 57.1–70.3%)  무 0 멈춤 0 오류 0  15s
+  vs rl_dqn_v112   54.5%  (109승 91패, 95%CI 47.6–61.3%)  무 0 멈춤 0 오류 0  27s
+  vs rl_dqn_v112_best  45.0%  (90승 110패, 95%CI 38.3–51.9%)  무 0 멈춤 0 오류 0  27s
+  vs rl_mc_v112    88.0%  (176승 24패, 95%CI 82.8–91.8%)  무 0 멈춤 0 오류 0  17s
+  vs rl_mc_v112_best  81.5%  (163승 37패, 95%CI 75.5–86.3%)  무 0 멈춤 0 오류 0  16s
+  vs rl_ppo_v112   52.0%  (104승 96패, 95%CI 45.1–58.8%)  무 0 멈춤 0 오류 0  22s
+  vs rl_ppo_v112_best  59.5%  (119승 81패, 95%CI 52.6–66.1%)  무 0 멈춤 0 오류 0  20s
+  vs rl_sarsa_v112  47.5%  (95승 105패, 95%CI 40.7–54.4%)  무 0 멈춤 0 오류 0  23s
+------------------------------------------------------------------------------
+[r1_eval_sarsa] 끝 11:21:03   소요 3분 13초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_eval_mc] 시작 2026-10-27 11:21:03
+명령: node train\eval_vs.js rl_mc_v112_best --games=200
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_mc_v112_best: 각 상대와 200판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        83.5%  (167승 33패, 95%CI 77.7–88.0%)  무 0 멈춤 0 오류 0  15s
+  vs rule          41.5%  (83승 117패, 95%CI 34.9–48.4%)  무 0 멈춤 0 오류 0  15s
+  vs rule2         21.5%  (43승 157패, 95%CI 16.4–27.7%)  무 0 멈춤 0 오류 0  12s
+  vs rl_dqn_v112   22.1%  (44승 155패, 95%CI 16.9–28.4%)  무 1 멈춤 0 오류 0  19s
+  vs rl_dqn_v112_best  12.5%  (25승 175패, 95%CI 8.6–17.8%)  무 0 멈춤 0 오류 0  19s
+  vs rl_mc_v112    47.0%  (94승 106패, 95%CI 40.2–53.9%)  무 0 멈춤 0 오류 0  18s
+  vs rl_ppo_v112   16.0%  (32승 168패, 95%CI 11.6–21.7%)  무 0 멈춤 0 오류 0  15s
+  vs rl_ppo_v112_best  20.5%  (41승 159패, 95%CI 15.5–26.6%)  무 0 멈춤 0 오류 0  17s
+  vs rl_sarsa_v112  20.0%  (40승 160패, 95%CI 15.0–26.1%)  무 0 멈춤 0 오류 0  16s
+  vs rl_sarsa_v112_best  12.5%  (25승 175패, 95%CI 8.6–17.8%)  무 0 멈춤 0 오류 0  16s
+------------------------------------------------------------------------------
+[r1_eval_mc] 끝 11:23:45   소요 2분 42초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[r1_eval_ppo] 시작 2026-10-27 11:23:45
+명령: node train\eval_vs.js rl_ppo_v112_best --games=200
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_ppo_v112_best: 각 상대와 200판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        96.5%  (193승 7패, 95%CI 93.0–98.3%)  무 0 멈춤 0 오류 0  11s
+  vs rule          73.0%  (146승 54패, 95%CI 66.5–78.7%)  무 0 멈춤 0 오류 0  17s
+  vs rule2         53.5%  (107승 93패, 95%CI 46.6–60.3%)  무 0 멈춤 0 오류 0  14s
+  vs rl_dqn_v112   50.0%  (100승 100패, 95%CI 43.1–56.9%)  무 0 멈춤 0 오류 0  24s
+  vs rl_dqn_v112_best  35.5%  (71승 129패, 95%CI 29.2–42.3%)  무 0 멈춤 0 오류 0  22s
+  vs rl_mc_v112    82.5%  (165승 35패, 95%CI 76.6–87.1%)  무 0 멈춤 0 오류 0  17s
+  vs rl_mc_v112_best  76.5%  (153승 47패, 95%CI 70.2–81.8%)  무 0 멈춤 0 오류 0  17s
+  vs rl_ppo_v112   47.5%  (95승 105패, 95%CI 40.7–54.4%)  무 0 멈춤 0 오류 0  18s
+  vs rl_sarsa_v112  39.0%  (78승 122패, 95%CI 32.5–45.9%)  무 0 멈춤 0 오류 0  23s
+  vs rl_sarsa_v112_best  38.0%  (76승 124패, 95%CI 31.6–44.9%)  무 0 멈춤 0 오류 0  20s
+------------------------------------------------------------------------------
+[r1_eval_ppo] 끝 11:26:48   소요 3분 03초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_dqn_v112_best] 시작 2026-10-27 11:36:43
+명령: node train\eval_vs.js rl_dqn_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_dqn_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        99.3%  (298승 2패, 95%CI 97.6–99.8%)  무 0 멈춤 0 오류 0  16s
+  vs rule          82.0%  (246승 54패, 95%CI 77.3–85.9%)  무 0 멈춤 0 오류 0  25s
+  vs rule2         68.0%  (204승 96패, 95%CI 62.5–73.0%)  무 0 멈춤 0 오류 0  25s
+  vs rl_dqn_v112   58.3%  (175승 125패, 95%CI 52.7–63.8%)  무 0 멈춤 0 오류 0  45s
+  vs rl_mc_v112    89.7%  (269승 31패, 95%CI 85.7–92.6%)  무 0 멈춤 0 오류 0  25s
+  vs rl_mc_v112_best  86.3%  (259승 41패, 95%CI 82.0–89.8%)  무 0 멈춤 0 오류 0  26s
+  vs rl_ppo_v112   61.0%  (183승 117패, 95%CI 55.4–66.3%)  무 0 멈춤 0 오류 0  35s
+  vs rl_ppo_v112_best  65.7%  (197승 103패, 95%CI 60.1–70.8%)  무 0 멈춤 0 오류 0  34s
+  vs rl_sarsa_v112  49.0%  (147승 153패, 95%CI 43.4–54.6%)  무 0 멈춤 0 오류 0  40s
+  vs rl_sarsa_v112_best  49.8%  (149승 150패, 95%CI 44.2–55.5%)  무 1 멈춤 0 오류 0  41s
+------------------------------------------------------------------------------
+[eval_rl_dqn_v112_best] 끝 11:41:56   소요 5분 13초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_sarsa_v112_best] 시작 2026-10-27 11:41:56
+명령: node train\eval_vs.js rl_sarsa_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_sarsa_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  vs random        97.3%  (292승 8패, 95%CI 94.8–98.6%)  무 0 멈춤 0 오류 0  16s
+  vs rule          80.0%  (240승 60패, 95%CI 75.1–84.1%)  무 0 멈춤 0 오류 0  22s
+  vs rule2         67.7%  (203승 97패, 95%CI 62.2–72.7%)  무 0 멈춤 0 오류 0  22s
+  vs rl_dqn_v112   55.3%  (166승 134패, 95%CI 49.7–60.9%)  무 0 멈춤 0 오류 0  43s
+  vs rl_dqn_v112_best  44.3%  (133승 167패, 95%CI 38.8–50.0%)  무 0 멈춤 0 오류 0  42s
+  vs rl_mc_v112    86.7%  (260승 40패, 95%CI 82.4–90.1%)  무 0 멈춤 0 오류 0  26s
+  vs rl_mc_v112_best  84.0%  (252승 48패, 95%CI 79.4–87.7%)  무 0 멈춤 0 오류 0  26s
+
+==============================================================================
+[r2_mc_1] 시작 2026-10-27 11:45:40
+명령: train\train.py --algo mc --name mc_v112 --games 30000 --minutes 60 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10
+==============================================================================
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+이어서 학습: 이미 18232판
+  vs rl_ppo_v112   53.0%  (159승 141패, 95%CI 47.3–58.6%)  무 0 멈춤 0 오류 0  32s
+경기 18607/30000  691 결정/초  탐험 0.05  손실 0.188  최근 학습승률(탐험 포함) 27%
+  vs rl_ppo_v112_best  67.3%  (202승 98패, 95%CI 61.8–72.4%)  무 0 멈춤 0 오류 0  34s
+경기 19092/30000  650 결정/초  탐험 0.05  손실 0.130  최근 학습승률(탐험 포함) 18%
+경기 19509/30000  650 결정/초  탐험 0.05  손실 0.135  최근 학습승률(탐험 포함) 18%
+  vs rl_sarsa_v112  48.0%  (144승 156패, 95%CI 42.4–53.6%)  무 0 멈춤 0 오류 0  38s
+------------------------------------------------------------------------------
+[eval_rl_sarsa_v112_best] 끝 11:46:58   소요 5분 01초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_mc_v112_best] 시작 2026-10-27 11:46:58
+명령: node train\eval_vs.js rl_mc_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_mc_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+경기 19926/30000  646 결정/초  탐험 0.05  손실 0.142  최근 학습승률(탐험 포함) 20%
+  vs random        84.0%  (252승 48패, 95%CI 79.4–87.7%)  무 0 멈춤 0 오류 0  22s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 32% · rule 4% · rule2 1%  (best 36%)
+경기 20233/30000  555 결정/초  탐험 0.05  손실 0.142  최근 학습승률(탐험 포함) 15%
+  vs rule          40.7%  (122승 178패, 95%CI 35.3–46.3%)  무 0 멈춤 0 오류 0  22s
+경기 20628/30000  569 결정/초  탐험 0.05  손실 0.139  최근 학습승률(탐험 포함) 18%
+  vs rule2         22.0%  (66승 234패, 95%CI 17.7–27.0%)  무 0 멈춤 0 오류 0  18s
+경기 20989/30000  580 결정/초  탐험 0.05  손실 0.144  최근 학습승률(탐험 포함) 24%
+  vs rl_dqn_v112   17.0%  (51승 249패, 95%CI 13.2–21.7%)  무 0 멈춤 0 오류 0  28s
+경기 21373/30000  588 결정/초  탐험 0.05  손실 0.149  최근 학습승률(탐험 포함) 23%
+경기 21726/30000  598 결정/초  탐험 0.05  손실 0.152  최근 학습승률(탐험 포함) 23%
+  vs rl_dqn_v112_best  12.3%  (37승 263패, 95%CI 9.1–16.5%)  무 0 멈춤 0 오류 0  26s
+경기 22114/30000  605 결정/초  탐험 0.05  손실 0.160  최근 학습승률(탐험 포함) 22%
+  vs rl_mc_v112    50.3%  (151승 149패, 95%CI 44.7–56.0%)  무 0 멈춤 0 오류 0  30s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 62% · rule 25% · rule2 9%  (best 36%)
+경기 22234/30000  553 결정/초  탐험 0.05  손실 0.157  최근 학습승률(탐험 포함) 21%
+  vs rl_ppo_v112   21.0%  (63승 237패, 95%CI 16.8–26.0%)  무 0 멈춤 0 오류 0  26s
+경기 22566/30000  562 결정/초  탐험 0.05  손실 0.162  최근 학습승률(탐험 포함) 17%
+  vs rl_ppo_v112_best  21.7%  (65승 235패, 95%CI 17.4–26.7%)  무 0 멈춤 0 오류 0  26s
+경기 22892/30000  567 결정/초  탐험 0.05  손실 0.162  최근 학습승률(탐험 포함) 22%
+경기 23254/30000  571 결정/초  탐험 0.05  손실 0.162  최근 학습승률(탐험 포함) 24%
+  vs rl_sarsa_v112  15.7%  (47승 253패, 95%CI 12.0–20.2%)  무 0 멈춤 0 오류 0  27s
+경기 23603/30000  575 결정/초  탐험 0.05  손실 0.159  최근 학습승률(탐험 포함) 24%
+  vs rl_sarsa_v112_best  13.7%  (41승 259패, 95%CI 10.2–18.0%)  무 0 멈춤 0 오류 0  27s
+------------------------------------------------------------------------------
+[eval_rl_mc_v112_best] 끝 11:51:11   소요 4분 13초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_ppo_v112_best] 시작 2026-10-27 11:51:11
+명령: node train\eval_vs.js rl_ppo_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_ppo_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+경기 23962/30000  579 결정/초  탐험 0.05  손실 0.164  최근 학습승률(탐험 포함) 25%
+  vs random        99.0%  (297승 3패, 95%CI 97.1–99.7%)  무 0 멈춤 0 오류 0  17s
+  vs rule          74.3%  (223승 77패, 95%CI 69.1–78.9%)  무 0 멈춤 0 오류 0  25s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 54% · rule 21% · rule2 7%  (best 36%)
+경기 24240/30000  548 결정/초  탐험 0.05  손실 0.165  최근 학습승률(탐험 포함) 25%
+  vs rule2         52.0%  (156승 144패, 95%CI 46.4–57.6%)  무 0 멈춤 0 오류 0  22s
+경기 24576/30000  552 결정/초  탐험 0.05  손실 0.165  최근 학습승률(탐험 포함) 20%
+경기 24898/30000  557 결정/초  탐험 0.05  손실 0.171  최근 학습승률(탐험 포함) 28%
+  vs rl_dqn_v112   39.0%  (117승 183패, 95%CI 33.7–44.6%)  무 0 멈춤 0 오류 0  40s
+경기 25239/30000  560 결정/초  탐험 0.05  손실 0.173  최근 학습승률(탐험 포함) 27%
+경기 25647/30000  562 결정/초  탐험 0.05  손실 0.175  최근 학습승률(탐험 포함) 23%
+  vs rl_dqn_v112_best  34.7%  (104승 196패, 95%CI 29.5–40.2%)  무 0 멈춤 0 오류 0  37s
+경기 25978/30000  564 결정/초  탐험 0.05  손실 0.175  최근 학습승률(탐험 포함) 25%
+  vs rl_mc_v112    89.3%  (268승 32패, 95%CI 85.3–92.3%)  무 0 멈춤 0 오류 0  29s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 63% · rule 29% · rule2 14%  (best 36%)
+경기 26240/30000  540 결정/초  탐험 0.05  손실 0.176  최근 학습승률(탐험 포함) 23%
+경기 26624/30000  544 결정/초  탐험 0.05  손실 0.174  최근 학습승률(탐험 포함) 24%
+  vs rl_mc_v112_best  75.7%  (227승 73패, 95%CI 70.5–80.2%)  무 0 멈춤 0 오류 0  30s
+경기 26983/30000  546 결정/초  탐험 0.05  손실 0.176  최근 학습승률(탐험 포함) 23%
+  vs rl_ppo_v112   43.7%  (131승 169패, 95%CI 38.2–49.3%)  무 0 멈춤 0 오류 0  31s
+경기 27392/30000  549 결정/초  탐험 0.05  손실 0.178  최근 학습승률(탐험 포함) 19%
+경기 27829/30000  551 결정/초  탐험 0.05  손실 0.175  최근 학습승률(탐험 포함) 20%
+  vs rl_sarsa_v112  30.7%  (92승 208패, 95%CI 25.7–36.1%)  무 0 멈춤 0 오류 0  35s
+경기 28195/30000  553 결정/초  탐험 0.05  손실 0.171  최근 학습승률(탐험 포함) 21%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 60% · rule 18% · rule2 13%  (best 36%)
+경기 28237/30000  536 결정/초  탐험 0.05  손실 0.169  최근 학습승률(탐험 포함) 21%
+경기 28622/30000  538 결정/초  탐험 0.05  손실 0.168  최근 학습승률(탐험 포함) 24%
+  vs rl_sarsa_v112_best  32.4%  (97승 202패, 95%CI 27.4–37.9%)  무 0 멈춤 1 오류 0  57s
+    멈춤 예시: 턴 14, 행동 상한(3000) 초과, 마지막 행동: A:CHOOSE A:PLAY_CARD#1545 A:CHOOSE A:PLAY_CARD#1546 A:CHOOSE A:PLAY_CARD#1547 A:CHOOSE A:PLAY_CARD#1548
+------------------------------------------------------------------------------
+[eval_rl_ppo_v112_best] 끝 11:56:35   소요 5분 23초   종료코드 0
+------------------------------------------------------------------------------
+경기 28999/30000  542 결정/초  탐험 0.05  손실 0.170  최근 학습승률(탐험 포함) 23%
+경기 29353/30000  545 결정/초  탐험 0.05  손실 0.163  최근 학습승률(탐험 포함) 20%
+경기 29717/30000  548 결정/초  탐험 0.05  손실 0.167  최근 학습승률(탐험 포함) 22%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 67% · rule 37% · rule2 9%  (best 36%)
+완료. 모델 위치: C:\card_rl\train\..\models\mc_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_mc_1] 끝 11:58:15   소요 12분 34초   종료코드 0
+[r2_mc_1] 마지막 평가: games=30000  eps=0.05  loss=0.1683  vs_random=0.67  vs_rule=0.37  vs_rule2=0.09  best_score=0.355
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_mc_2] 시작 2026-10-27 11:58:15
+명령: train\train.py --algo mc --name mc_v112 --games 40000 --minutes 60 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15
+==============================================================================
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+이어서 학습: 이미 30000판
+경기 30335/40000  695 결정/초  탐험 0.05  손실 0.139  최근 학습승률(탐험 포함) 22%
+경기 30695/40000  650 결정/초  탐험 0.05  손실 0.109  최근 학습승률(탐험 포함) 20%
+경기 31027/40000  638 결정/초  탐험 0.05  손실 0.117  최근 학습승률(탐험 포함) 23%
+경기 31390/40000  633 결정/초  탐험 0.05  손실 0.118  최근 학습승률(탐험 포함) 24%
+경기 31763/40000  628 결정/초  탐험 0.05  손실 0.121  최근 학습승률(탐험 포함) 25%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 86% · rule 37% · rule2 23%  (best 36%)
+경기 32002/40000  534 결정/초  탐험 0.05  손실 0.122  최근 학습승률(탐험 포함) 24%
+경기 32375/40000  541 결정/초  탐험 0.05  손실 0.128  최근 학습승률(탐험 포함) 20%
+경기 32757/40000  552 결정/초  탐험 0.05  손실 0.127  최근 학습승률(탐험 포함) 23%
+경기 33152/40000  556 결정/초  탐험 0.05  손실 0.128  최근 학습승률(탐험 포함) 22%
+경기 33504/40000  560 결정/초  탐험 0.05  손실 0.139  최근 학습승률(탐험 포함) 25%
+경기 33881/40000  566 결정/초  탐험 0.05  손실 0.151  최근 학습승률(탐험 포함) 26%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 73% · rule 21% · rule2 13%  (best 36%)
+경기 34006/40000  527 결정/초  탐험 0.05  손실 0.148  최근 학습승률(탐험 포함) 25%
+경기 34388/40000  535 결정/초  탐험 0.05  손실 0.148  최근 학습승률(탐험 포함) 25%
+경기 34791/40000  538 결정/초  탐험 0.05  손실 0.150  최근 학습승률(탐험 포함) 23%
+경기 35181/40000  543 결정/초  탐험 0.05  손실 0.153  최근 학습승률(탐험 포함) 24%
+경기 35553/40000  548 결정/초  탐험 0.05  손실 0.157  최근 학습승률(탐험 포함) 26%
+경기 35919/40000  553 결정/초  탐험 0.05  손실 0.151  최근 학습승률(탐험 포함) 23%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 79% · rule 44% · rule2 21%  (best 36%)
+경기 36003/40000  523 결정/초  탐험 0.05  손실 0.151  최근 학습승률(탐험 포함) 23%
+경기 36360/40000  528 결정/초  탐험 0.05  손실 0.149  최근 학습승률(탐험 포함) 24%
+경기 36729/40000  533 결정/초  탐험 0.05  손실 0.147  최근 학습승률(탐험 포함) 26%
+경기 37062/40000  536 결정/초  탐험 0.05  손실 0.150  최근 학습승률(탐험 포함) 24%
+경기 37405/40000  539 결정/초  탐험 0.05  손실 0.155  최근 학습승률(탐험 포함) 26%
+경기 37787/40000  543 결정/초  탐험 0.05  손실 0.152  최근 학습승률(탐험 포함) 23%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 75% · rule 29% · rule2 11%  (best 36%)
+경기 38006/40000  524 결정/초  탐험 0.05  손실 0.156  최근 학습승률(탐험 포함) 23%
+경기 38371/40000  526 결정/초  탐험 0.05  손실 0.149  최근 학습승률(탐험 포함) 22%
+경기 38701/40000  530 결정/초  탐험 0.05  손실 0.154  최근 학습승률(탐험 포함) 25%
+경기 39048/40000  533 결정/초  탐험 0.05  손실 0.154  최근 학습승률(탐험 포함) 22%
+경기 39417/40000  536 결정/초  탐험 0.05  손실 0.157  최근 학습승률(탐험 포함) 18%
+경기 39780/40000  538 결정/초  탐험 0.05  손실 0.150  최근 학습승률(탐험 포함) 21%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 82% · rule 33% · rule2 10%  (best 36%)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 75% · rule 33% · rule2 10%  (best 36%)
+완료. 모델 위치: C:\card_rl\train\..\models\mc_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_mc_2] 끝 12:09:29   소요 11분 14초   종료코드 0
+[r2_mc_2] 마지막 평가: games=40000  eps=0.05  loss=0.1599  vs_random=0.75  vs_rule=0.33  vs_rule2=0.1  best_score=0.355
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_mc_3] 시작 2026-10-27 12:09:30
+명령: train\train.py --algo mc --name mc_v112 --games 50000 --minutes 60 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20
+==============================================================================
+[mc] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\mc_v112
+이어서 학습: 이미 40000판
+경기 40398/50000  646 결정/초  탐험 0.05  손실 0.117  최근 학습승률(탐험 포함) 14%
+경기 40856/50000  595 결정/초  탐험 0.05  손실 0.077  최근 학습승률(탐험 포함) 11%
+경기 41273/50000  580 결정/초  탐험 0.05  손실 0.080  최근 학습승률(탐험 포함) 11%
+경기 41727/50000  579 결정/초  탐험 0.05  손실 0.081  최근 학습승률(탐험 포함) 13%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 43% · rule 10% · rule2 8%  (best 36%)
+경기 42005/50000  498 결정/초  탐험 0.05  손실 0.083  최근 학습승률(탐험 포함) 11%
+경기 42447/50000  510 결정/초  탐험 0.05  손실 0.086  최근 학습승률(탐험 포함) 12%
+경기 42928/50000  516 결정/초  탐험 0.05  손실 0.076  최근 학습승률(탐험 포함) 8%
+경기 43367/50000  522 결정/초  탐험 0.05  손실 0.075  최근 학습승률(탐험 포함) 12%
+경기 43841/50000  525 결정/초  탐험 0.05  손실 0.076  최근 학습승률(탐험 포함) 10%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 76% · rule 28% · rule2 23%  (best 36%)
+경기 44001/50000  475 결정/초  탐험 0.05  손실 0.079  최근 학습승률(탐험 포함) 12%
+경기 44394/50000  484 결정/초  탐험 0.05  손실 0.093  최근 학습승률(탐험 포함) 19%
+경기 44792/50000  491 결정/초  탐험 0.05  손실 0.108  최근 학습승률(탐험 포함) 16%
+경기 45202/50000  497 결정/초  탐험 0.05  손실 0.102  최근 학습승률(탐험 포함) 13%
+경기 45578/50000  502 결정/초  탐험 0.05  손실 0.108  최근 학습승률(탐험 포함) 15%
+경기 45953/50000  505 결정/초  탐험 0.05  손실 0.108  최근 학습승률(탐험 포함) 16%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 51% · rule 22% · rule2 10%  (best 36%)
+경기 46006/50000  478 결정/초  탐험 0.05  손실 0.105  최근 학습승률(탐험 포함) 15%
+경기 46383/50000  483 결정/초  탐험 0.05  손실 0.111  최근 학습승률(탐험 포함) 13%
+경기 46768/50000  488 결정/초  탐험 0.05  손실 0.110  최근 학습승률(탐험 포함) 12%
+경기 47178/50000  492 결정/초  탐험 0.05  손실 0.110  최근 학습승률(탐험 포함) 14%
+경기 47575/50000  497 결정/초  탐험 0.05  손실 0.112  최근 학습승률(탐험 포함) 14%
+경기 47954/50000  503 결정/초  탐험 0.05  손실 0.116  최근 학습승률(탐험 포함) 17%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 67% · rule 23% · rule2 11%  (best 36%)
+경기 48003/50000  480 결정/초  탐험 0.05  손실 0.117  최근 학습승률(탐험 포함) 17%
+경기 48357/50000  483 결정/초  탐험 0.05  손실 0.119  최근 학습승률(탐험 포함) 15%
+경기 48724/50000  486 결정/초  탐험 0.05  손실 0.124  최근 학습승률(탐험 포함) 12%
+경기 49049/50000  489 결정/초  탐험 0.05  손실 0.123  최근 학습승률(탐험 포함) 15%
+경기 49447/50000  492 결정/초  탐험 0.05  손실 0.120  최근 학습승률(탐험 포함) 12%
+경기 49879/50000  494 결정/초  탐험 0.05  손실 0.118  최근 학습승률(탐험 포함) 14%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 62% · rule 17% · rule2 9%  (best 36%)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 57% · rule 17% · rule2 9%  (best 36%)
+완료. 모델 위치: C:\card_rl\train\..\models\mc_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_mc_3] 끝 12:19:37   소요 10분 07초   종료코드 0
+[r2_mc_3] 마지막 평가: games=50000  eps=0.05  loss=0.1166  vs_random=0.57  vs_rule=0.17  vs_rule2=0.09  best_score=0.355
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_dqn_1] 시작 2026-10-27 12:19:37
+명령: train\train.py --algo dqn --name dqn_v112 --games 80000 --minutes 60 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10
+==============================================================================
+[dqn] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\dqn_v112
+이어서 학습: 이미 69252판
+경기 69536/80000  638 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+경기 69779/80000  602 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+경기 70023/80000  587 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 70297/80000  582 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 70568/80000  578 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 70834/80000  579 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 71083/80000  578 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 80% · rule2 64%  (best 76%)
+경기 71252/80000  513 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 71431/80000  393 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+경기 71716/80000  408 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 72001/80000  423 결정/초  탐험 0.05  손실 25979.658  최근 학습승률(탐험 포함) 65%
+경기 72307/80000  434 결정/초  탐험 0.05  손실 582.292  최근 학습승률(탐험 포함) 69%
+경기 72608/80000  444 결정/초  탐험 0.05  손실 42203.399  최근 학습승률(탐험 포함) 70%
+경기 72876/80000  452 결정/초  탐험 0.05  손실 36598.778  최근 학습승률(탐험 포함) 65%
+경기 73152/80000  460 결정/초  탐험 0.05  손실 22604.732  최근 학습승률(탐험 포함) 66%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 85% · rule2 66%  (best 76%)
+경기 73256/80000  442 결정/초  탐험 0.05  손실 5172.534  최근 학습승률(탐험 포함) 66%
+경기 73525/80000  450 결정/초  탐험 0.05  손실 45354.329  최근 학습승률(탐험 포함) 67%
+경기 73793/80000  456 결정/초  탐험 0.05  손실 41126.342  최근 학습승률(탐험 포함) 69%
+경기 74105/80000  464 결정/초  탐험 0.05  손실 833.214  최근 학습승률(탐험 포함) 70%
+경기 74384/80000  469 결정/초  탐험 0.05  손실 19.849  최근 학습승률(탐험 포함) 69%
+경기 74644/80000  473 결정/초  탐험 0.05  손실 0.551  최근 학습승률(탐험 포함) 67%
+경기 74943/80000  478 결정/초  탐험 0.05  손실 0.018  최근 학습승률(탐험 포함) 67%
+경기 75215/80000  483 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 73%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 89% · rule2 73%  (best 81%)
+경기 75255/80000  467 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 71%
+경기 75560/80000  472 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 74%
+경기 75846/80000  476 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 72%
+경기 76149/80000  479 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 76412/80000  481 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 68%
+경기 76685/80000  484 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+경기 76937/80000  486 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 77233/80000  490 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 84% · rule2 68%  (best 81%)
+경기 77258/80000  478 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 70%
+경기 77520/80000  480 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 70%
+경기 77800/80000  483 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 78068/80000  485 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 70%
+경기 78349/80000  488 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 71%
+경기 78631/80000  491 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 78913/80000  493 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+경기 79197/80000  496 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 70%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 84% · rule2 69%  (best 81%)
+경기 79255/80000  486 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 70%
+경기 79535/80000  488 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 71%
+경기 79818/80000  490 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 71%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 84% · rule2 69%  (best 81%)
+완료. 모델 위치: C:\card_rl\train\..\models\dqn_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_dqn_1] 끝 12:35:31   소요 15분 53초   종료코드 0
+[r2_dqn_1] 마지막 평가: games=80000  eps=0.05  loss=0.0071  vs_random=1.0  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_dqn_2] 시작 2026-10-27 12:35:31
+명령: train\train.py --algo dqn --name dqn_v112 --games 90000 --minutes 60 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15
+==============================================================================
+[dqn] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\dqn_v112
+이어서 학습: 이미 80000판
+경기 80252/90000  620 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+경기 80519/90000  596 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+경기 80777/90000  589 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+경기 81031/90000  577 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+경기 81278/90000  572 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 64%
+경기 81534/90000  569 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 81799/90000  567 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 66%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 80% · rule2 69%  (best 81%)
+경기 82005/90000  504 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 82265/90000  507 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 82516/90000  512 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 82775/90000  517 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 70%
+경기 83049/90000  520 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 83304/90000  522 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 83547/90000  523 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 83822/90000  528 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 88% · rule2 72%  (best 81%)
+경기 84005/90000  500 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 69%
+경기 84255/90000  503 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 84509/90000  506 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 84773/90000  509 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 85029/90000  511 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+경기 85293/90000  514 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 85575/90000  516 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 85808/90000  516 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 85% · rule2 64%  (best 81%)
+경기 86002/90000  498 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 86268/90000  500 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 86526/90000  502 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+경기 86770/90000  504 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 87016/90000  504 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 87279/90000  505 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 87559/90000  508 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 87820/90000  509 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 89% · rule2 68%  (best 81%)
+경기 88003/90000  498 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 68%
+경기 88247/90000  499 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 88518/90000  501 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+경기 88767/90000  503 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 68%
+경기 89017/90000  503 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 89278/90000  505 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 89529/90000  506 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 89802/90000  507 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 84% · rule2 67%  (best 81%)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 84% · rule2 67%  (best 81%)
+완료. 모델 위치: C:\card_rl\train\..\models\dqn_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_dqn_2] 끝 12:50:21   소요 14분 50초   종료코드 0
+[r2_dqn_2] 마지막 평가: games=90002  eps=0.05  loss=0.0069  vs_random=0.98  vs_rule=0.84  vs_rule2=0.67  best_score=0.81
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_dqn_3] 시작 2026-10-27 12:50:21
+명령: train\train.py --algo dqn --name dqn_v112 --games 100000 --minutes 60 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20
+==============================================================================
+[dqn] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\dqn_v112
+이어서 학습: 이미 90002판
+경기 90255/100000  606 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 90506/100000  560 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 90777/100000  552 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 61%
+경기 91021/100000  542 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 91280/100000  541 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+경기 91547/100000  542 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 91788/100000  541 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 86% · rule2 69%  (best 81%)
+경기 92004/100000  482 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 92245/100000  487 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 92508/100000  492 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 92737/100000  496 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 92991/100000  501 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 93252/100000  505 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 93509/100000  507 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+경기 93740/100000  507 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 93983/100000  509 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 76% · rule2 67%  (best 81%)
+경기 94003/100000  482 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 94260/100000  485 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 94515/100000  488 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 94756/100000  490 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 94980/100000  490 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 95226/100000  492 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 95475/100000  494 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 95739/100000  495 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 95977/100000  496 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 83% · rule2 60%  (best 81%)
+경기 96005/100000  479 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 96243/100000  480 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 59%
+경기 96500/100000  483 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 96737/100000  484 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 96989/100000  486 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 66%
+경기 97241/100000  487 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+경기 97506/100000  489 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 97757/100000  491 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+경기 97998/100000  492 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 66%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 82% · rule2 68%  (best 81%)
+경기 98029/100000  480 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 98283/100000  482 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+경기 98544/100000  483 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 62%
+경기 98787/100000  485 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+경기 99034/100000  486 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 99287/100000  488 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 64%
+경기 99544/100000  489 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 63%
+경기 99832/100000  491 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 84% · rule2 69%  (best 81%)
+완료. 모델 위치: C:\card_rl\train\..\models\dqn_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_dqn_3] 끝 13:05:19   소요 14분 58초   종료코드 0
+[r2_dqn_3] 마지막 평가: games=100000  eps=0.05  loss=0.0063  vs_random=0.98  vs_rule=0.84  vs_rule2=0.69  best_score=0.81
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_sarsa_1] 시작 2026-10-27 13:05:19
+명령: train\train.py --algo sarsa --name sarsa_v112 --games 85000 --minutes 60 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10
+==============================================================================
+[sarsa] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\sarsa_v112
+이어서 학습: 이미 74199판
+경기 74554/85000  777 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 62%
+경기 74927/85000  778 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 59%
+경기 75311/85000  778 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 61%
+경기 75690/85000  772 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 58%
+경기 76050/85000  770 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 55%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 97% · rule 68% · rule2 46%  (best 76%)
+경기 76201/85000  642 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 53%
+경기 76565/85000  660 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 53%
+경기 76942/85000  675 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 59%
+경기 77322/85000  688 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 56%
+경기 77708/85000  699 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 78125/85000  712 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 96% · rule 75% · rule2 63%  (best 76%)
+경기 78203/85000  659 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 78621/85000  672 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 68%
+경기 79036/85000  685 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 79447/85000  697 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 79869/85000  706 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 78% · rule2 67%  (best 76%)
+경기 80199/85000  680 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 80623/85000  689 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 81031/85000  696 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 68%
+경기 81465/85000  703 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 81869/85000  710 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 80% · rule2 56%  (best 76%)
+경기 82199/85000  687 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 72%
+경기 82614/85000  693 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+경기 83034/85000  699 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 69%
+경기 83443/85000  704 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 83864/85000  710 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 77% · rule2 66%  (best 76%)
+경기 84203/85000  693 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 84609/85000  697 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 62%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 78% · rule2 58%  (best 76%)
+완료. 모델 위치: C:\card_rl\train\..\models\sarsa_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_sarsa_1] 끝 13:16:22   소요 11분 02초   종료코드 0
+[r2_sarsa_1] 마지막 평가: games=85001  eps=0.05  loss=0.0077  vs_random=0.98  vs_rule=0.78  vs_rule2=0.58  best_score=0.76
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_sarsa_2] 시작 2026-10-27 13:16:22
+명령: train\train.py --algo sarsa --name sarsa_v112 --games 95000 --minutes 60 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15
+==============================================================================
+[sarsa] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\sarsa_v112
+이어서 학습: 이미 85001판
+경기 85371/95000  797 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 67%
+경기 85736/95000  778 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 86119/95000  775 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+경기 86512/95000  777 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 86893/95000  777 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+
+==============================================================================
+[eval_rl_dqn_v112_best] 시작 2026-10-27 13:18:15
+명령: node train\eval_vs.js rl_dqn_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_dqn_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 90% · rule2 64%  (best 77%)
+경기 87001/95000  661 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  vs random        99.3%  (298승 2패, 95%CI 97.6–99.8%)  무 0 멈춤 0 오류 0  16s
+경기 87363/95000  674 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 62%
+  vs rule          82.3%  (247승 53패, 95%CI 77.6–86.2%)  무 0 멈춤 0 오류 0  26s
+경기 87747/95000  688 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+  vs rule2         68.0%  (204승 96패, 95%CI 62.5–73.0%)  무 0 멈춤 0 오류 0  24s
+경기 88112/95000  698 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 88472/95000  703 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  vs rl_dqn_v112   51.3%  (154승 146패, 95%CI 45.7–56.9%)  무 0 멈춤 0 오류 0  42s
+경기 88858/95000  709 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+  vs rl_mc_v112    96.7%  (290승 10패, 95%CI 94.0–98.2%)  무 0 멈춤 0 오류 0  23s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 81% · rule2 63%  (best 77%)
+경기 89004/95000  657 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+  vs rl_mc_v112_best  88.7%  (266승 34패, 95%CI 84.6–91.8%)  무 0 멈춤 0 오류 0  28s
+경기 89363/95000  665 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 89736/95000  672 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  vs rl_ppo_v112   60.9%  (182승 117패, 95%CI 55.2–66.2%)  무 1 멈춤 0 오류 0  34s
+경기 90112/95000  678 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+경기 90475/95000  682 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+  vs rl_ppo_v112_best  64.7%  (194승 106패, 95%CI 59.1–69.9%)  무 0 멈춤 0 오류 0  34s
+경기 90865/95000  687 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  vs rl_sarsa_v112  60.0%  (180승 120패, 95%CI 54.4–65.4%)  무 0 멈춤 0 오류 0  43s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 77% · rule2 69%  (best 77%)
+경기 91002/95000  653 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 91386/95000  658 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  vs rl_sarsa_v112_best  54.0%  (162승 138패, 95%CI 48.3–59.6%)  무 0 멈춤 0 오류 0  41s
+------------------------------------------------------------------------------
+[eval_rl_dqn_v112_best] 끝 13:23:26   소요 5분 11초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_sarsa_v112_best] 시작 2026-10-27 13:23:26
+명령: node train\eval_vs.js rl_sarsa_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_sarsa_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+경기 91739/95000  661 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+  vs random        98.0%  (294승 6패, 95%CI 95.7–99.1%)  무 0 멈춤 0 오류 0  16s
+경기 92084/95000  664 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 62%
+  vs rule          81.0%  (243승 57패, 95%CI 76.2–85.0%)  무 0 멈춤 0 오류 0  24s
+경기 92448/95000  668 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 92808/95000  671 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 58%
+  vs rule2         65.0%  (195승 105패, 95%CI 59.4–70.2%)  무 0 멈춤 0 오류 0  22s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 97% · rule 76% · rule2 50%  (best 77%)
+경기 93002/95000  647 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 65%
+  vs rl_dqn_v112   45.3%  (136승 164패, 95%CI 39.8–51.0%)  무 0 멈춤 0 오류 0  38s
+경기 93335/95000  648 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+경기 93668/95000  651 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 66%
+  vs rl_dqn_v112_best  53.0%  (159승 141패, 95%CI 47.3–58.6%)  무 0 멈춤 0 오류 0  41s
+경기 94034/95000  654 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  vs rl_mc_v112    93.3%  (280승 20패, 95%CI 89.9–95.6%)  무 0 멈춤 0 오류 0  22s
+경기 94398/95000  658 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  vs rl_mc_v112_best  84.7%  (254승 46패, 95%CI 80.2–88.3%)  무 0 멈춤 0 오류 0  25s
+경기 94789/95000  662 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+  vs rl_ppo_v112   60.0%  (180승 120패, 95%CI 54.4–65.4%)  무 0 멈춤 0 오류 0  31s
+  vs rl_ppo_v112_best  68.0%  (204승 96패, 95%CI 62.5–73.0%)  무 0 멈춤 0 오류 0  30s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 80% · rule2 62%  (best 77%)
+완료. 모델 위치: C:\card_rl\train\..\models\sarsa_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_sarsa_2] 끝 13:28:05   소요 11분 42초   종료코드 0
+[r2_sarsa_2] 마지막 평가: games=95000  eps=0.05  loss=0.0074  vs_random=0.99  vs_rule=0.8  vs_rule2=0.62  best_score=0.77
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_sarsa_3] 시작 2026-10-27 13:28:05
+명령: train\train.py --algo sarsa --name sarsa_v112 --games 105000 --minutes 60 --resume --opp rule:5,rule2:15,rl_dqn_v112_best:20,rl_sarsa_v112_best:20,rl_mc_v112_best:20,rl_ppo_v112_best:20
+==============================================================================
+[sarsa] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'rule': 5.0, 'rule2': 15.0, 'rl_dqn_v112_best': 20.0, 'rl_sarsa_v112_best': 20.0, 'rl_mc_v112_best': 20.0, 'rl_ppo_v112_best': 20.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\sarsa_v112
+이어서 학습: 이미 95000판
+  vs rl_sarsa_v112  51.0%  (153승 147패, 95%CI 45.4–56.6%)  무 0 멈춤 0 오류 0  38s
+------------------------------------------------------------------------------
+[eval_rl_sarsa_v112_best] 끝 13:28:11   소요 4분 45초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_mc_v112_best] 시작 2026-10-27 13:28:11
+명령: node train\eval_vs.js rl_mc_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_mc_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+경기 95328/105000  727 결정/초  탐험 0.05  손실 0.006  최근 학습승률(탐험 포함) 65%
+  vs random        84.7%  (254승 46패, 95%CI 80.2–88.3%)  무 0 멈춤 0 오류 0  22s
+경기 95709/105000  746 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+  vs rule          38.0%  (114승 186패, 95%CI 32.7–43.6%)  무 0 멈춤 0 오류 0  23s
+경기 96066/105000  742 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 61%
+  vs rule2         15.7%  (47승 253패, 95%CI 12.0–20.2%)  무 0 멈춤 0 오류 0  18s
+경기 96439/105000  748 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 64%
+  vs rl_dqn_v112    9.7%  (29승 271패, 95%CI 6.8–13.5%)  무 0 멈춤 0 오류 0  27s
+경기 96816/105000  754 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 57%
+  vs rl_dqn_v112_best  10.7%  (32승 268패, 95%CI 7.7–14.7%)  무 0 멈춤 0 오류 0  27s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 84% · rule2 64%  (best 77%)
+경기 97001/105000  644 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 57%
+  vs rl_mc_v112    68.0%  (204승 96패, 95%CI 62.5–73.0%)  무 0 멈춤 0 오류 0  29s
+경기 97348/105000  658 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 58%
+경기 97718/105000  670 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  vs rl_ppo_v112   17.0%  (51승 249패, 95%CI 13.2–21.7%)  무 0 멈춤 0 오류 0  25s
+경기 98094/105000  679 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 67%
+  vs rl_ppo_v112_best  23.0%  (69승 231패, 95%CI 18.6–28.1%)  무 0 멈춤 0 오류 0  26s
+경기 98442/105000  684 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 60%
+경기 98813/105000  689 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 57%
+  vs rl_sarsa_v112  15.0%  (45승 255패, 95%CI 11.4–19.5%)  무 0 멈춤 0 오류 0  30s
+  vs rl_sarsa_v112_best  16.3%  (49승 251패, 95%CI 12.6–20.9%)  무 0 멈춤 0 오류 0  27s
+------------------------------------------------------------------------------
+[eval_rl_mc_v112_best] 끝 13:32:26   소요 4분 14초   종료코드 0
+------------------------------------------------------------------------------
+
+==============================================================================
+[eval_rl_ppo_v112_best] 시작 2026-10-27 13:32:26
+명령: node train\eval_vs.js rl_ppo_v112_best --games=300
+==============================================================================
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+rl_ppo_v112_best: 각 상대와 300판 (좌석 반반 교대, 양쪽 랜덤 덱)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 96% · rule 77% · rule2 65%  (best 77%)
+경기 99003/105000  637 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 60%
+  vs random        97.0%  (291승 9패, 95%CI 94.4–98.4%)  무 0 멈춤 0 오류 0  17s
+경기 99334/105000  642 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 57%
+  vs rule          71.0%  (213승 87패, 95%CI 65.6–75.8%)  무 0 멈춤 0 오류 0  27s
+경기 99687/105000  648 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 56%
+경기 100013/105000  652 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 54%
+  vs rule2         53.7%  (161승 139패, 95%CI 48.0–59.2%)  무 0 멈춤 0 오류 0  23s
+경기 100360/105000  657 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 60%
+  vs rl_dqn_v112   29.0%  (87승 213패, 95%CI 24.2–34.4%)  무 0 멈춤 0 오류 0  33s
+경기 100684/105000  660 결정/초  탐험 0.05  손실 0.008  최근 학습승률(탐험 포함) 60%
+  vs rl_dqn_v112_best  36.3%  (109승 191패, 95%CI 31.1–41.9%)  무 0 멈춤 0 오류 0  33s
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 97% · rule 73% · rule2 56%  (best 77%)
+경기 101003/105000  629 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 56%
+  vs rl_mc_v112    86.7%  (260승 40패, 95%CI 82.4–90.1%)  무 0 멈춤 0 오류 0  24s
+경기 101359/105000  635 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+  vs rl_mc_v112_best  82.0%  (246승 54패, 95%CI 77.3–85.9%)  무 0 멈춤 0 오류 0  27s
+경기 101707/105000  639 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 61%
+경기 102068/105000  644 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 62%
+  vs rl_ppo_v112   43.3%  (130승 170패, 95%CI 37.8–49.0%)  무 0 멈춤 0 오류 0  32s
+경기 102424/105000  648 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 63%
+경기 102826/105000  653 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 59%
+  vs rl_sarsa_v112  37.0%  (111승 189패, 95%CI 31.7–42.6%)  무 0 멈춤 0 오류 0  34s
+  vs rl_sarsa_v112_best  35.0%  (105승 195패, 95%CI 29.8–40.6%)  무 0 멈춤 0 오류 0  29s
+------------------------------------------------------------------------------
+[eval_rl_ppo_v112_best] 끝 13:37:05   소요 4분 38초   종료코드 0
+------------------------------------------------------------------------------
+경기 102937/105000  588 결정/초  탐험 0.05  손실 0.007  최근 학습승률(탐험 포함) 60%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 100% · rule 87% · rule2 65%  (best 77%)
+경기 103001/105000  572 결정/초  탐험 0.05  손실 129635.023  최근 학습승률(탐험 포함) 59%
+경기 103381/105000  578 결정/초  탐험 0.05  손실 38573.314  최근 학습승률(탐험 포함) 64%
+경기 103743/105000  584 결정/초  탐험 0.05  손실 11477.617  최근 학습승률(탐험 포함) 60%
+경기 104124/105000  590 결정/초  탐험 0.05  손실 3415.206  최근 학습승률(탐험 포함) 63%
+경기 104500/105000  597 결정/초  탐험 0.05  손실 1016.211  최근 학습승률(탐험 포함) 62%
+경기 104905/105000  602 결정/초  탐험 0.05  손실 302.382  최근 학습승률(탐험 포함) 60%
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 99% · rule 82% · rule2 67%  (best 77%)
+  ▶ 평가(탐험 없음, 100판씩) 랜덤봇 98% · rule 82% · rule2 67%  (best 77%)
+완료. 모델 위치: C:\card_rl\train\..\models\sarsa_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_sarsa_3] 끝 13:40:18   소요 12분 12초   종료코드 0
+[r2_sarsa_3] 마지막 평가: games=105000  eps=0.05  loss=218.8651  vs_random=0.98  vs_rule=0.82  vs_rule2=0.67  best_score=0.77
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_ppo_1] 시작 2026-10-27 13:40:18
+명령: train\ppo.py --name ppo_v112 --games 85000 --minutes 60 --resume --opp random:10,rule:20,rule2:30,rl_dqn_v112_best:10,rl_sarsa_v112_best:10,rl_mc_v112_best:10,rl_ppo_v112_best:10 --eval-vs rl_dqn_v112_best
+==============================================================================
+[ppo] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 10.0, 'rule': 20.0, 'rule2': 30.0, 'rl_dqn_v112_best': 10.0, 'rl_sarsa_v112_best': 10.0, 'rl_mc_v112_best': 10.0, 'rl_ppo_v112_best': 10.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\ppo_v112
+이어서 학습: 이미 74686판, 업데이트 295번
+경기 75153/85000  841 결정/초  업데이트 297  엔트로피 0.48  KL 0.0049  가치손실 0.069  최근 학습승률 61% (rl_ppo_v112_best:52% rule:78% rule2:52% rl_mc_v112_best:80% rl_sarsa_v112_best:40% rl_dqn_v112_best:31% random:100%)
+경기 75656/85000  855 결정/초  업데이트 299  엔트로피 0.50  KL 0.0039  가치손실 0.061  최근 학습승률 60% (rl_ppo_v112_best:53% rule:77% rule2:52% rl_mc_v112_best:78% rl_sarsa_v112_best:39% rl_dqn_v112_best:33% random:98%)
+경기 76161/85000  865 결정/초  업데이트 301  엔트로피 0.49  KL 0.0046  가치손실 0.061  최근 학습승률 62% (rl_ppo_v112_best:50% rule:74% rule2:55% rl_mc_v112_best:80% rl_sarsa_v112_best:39% rl_dqn_v112_best:37% random:97%)
+경기 76660/85000  539 결정/초  업데이트 303  엔트로피 0.48  KL 0.0065  가치손실 0.063  최근 학습승률 60% (rl_ppo_v112_best:52% rule:74% rule2:54% rl_mc_v112_best:77% rl_sarsa_v112_best:36% rl_dqn_v112_best:36% random:97%)
+경기 76896/85000  415 결정/초  업데이트 304  엔트로피 0.51  KL 0.0042  가치손실 0.060  최근 학습승률 58% (rl_ppo_v112_best:52% rule:74% rule2:50% rl_mc_v112_best:78% rl_sarsa_v112_best:38% rl_dqn_v112_best:35% random:96%)
+  ▶ 평가(탐험 없음, 100판씩) random 100% · rule 76% · rule2 57% · rl_dqn_v112_best 38%  (best 점수 67%)
+경기 77157/85000  389 결정/초  업데이트 305  엔트로피 0.48  KL 0.0046  가치손실 0.064  최근 학습승률 57% (rl_ppo_v112_best:50% rule:71% rule2:50% rl_mc_v112_best:76% rl_sarsa_v112_best:42% rl_dqn_v112_best:34% random:96%)
+경기 77675/85000  430 결정/초  업데이트 307  엔트로피 0.50  KL 0.0037  가치손실 0.061  최근 학습승률 58% (rl_ppo_v112_best:51% rule:68% rule2:53% rl_mc_v112_best:72% rl_sarsa_v112_best:40% rl_dqn_v112_best:36% random:96%)
+경기 78189/85000  465 결정/초  업데이트 309  엔트로피 0.51  KL 0.0056  가치손실 0.066  최근 학습승률 58% (rl_ppo_v112_best:56% rule:68% rule2:46% rl_mc_v112_best:74% rl_sarsa_v112_best:38% rl_dqn_v112_best:34% random:96%)
+경기 78700/85000  494 결정/초  업데이트 311  엔트로피 0.52  KL 0.0043  가치손실 0.065  최근 학습승률 63% (rl_ppo_v112_best:58% rule:70% rule2:53% rl_mc_v112_best:76% rl_sarsa_v112_best:38% rl_dqn_v112_best:35% random:96%)
+  ▶ 평가(탐험 없음, 100판씩) random 99% · rule 79% · rule2 58% · rl_dqn_v112_best 35%  (best 점수 67%)
+경기 78956/85000  469 결정/초  업데이트 312  엔트로피 0.50  KL 0.0046  가치손실 0.066  최근 학습승률 60% (rl_ppo_v112_best:56% rule:70% rule2:54% rl_mc_v112_best:75% rl_sarsa_v112_best:39% rl_dqn_v112_best:34% random:95%)
+경기 79461/85000  494 결정/초  업데이트 314  엔트로피 0.52  KL 0.0060  가치손실 0.062  최근 학습승률 62% (rl_ppo_v112_best:60% rule:77% rule2:55% rl_mc_v112_best:80% rl_sarsa_v112_best:37% rl_dqn_v112_best:32% random:96%)
+경기 79979/85000  516 결정/초  업데이트 316  엔트로피 0.52  KL 0.0054  가치손실 0.068  최근 학습승률 61% (rl_ppo_v112_best:57% rule:70% rule2:55% rl_mc_v112_best:82% rl_sarsa_v112_best:34% rl_dqn_v112_best:31% random:96%)
+경기 80500/85000  536 결정/초  업데이트 318  엔트로피 0.54  KL 0.0059  가치손실 0.062  최근 학습승률 61% (rl_ppo_v112_best:51% rule:68% rule2:56% rl_mc_v112_best:80% rl_sarsa_v112_best:35% rl_dqn_v112_best:34% random:96%)
+  ▶ 평가(탐험 없음, 100판씩) random 99% · rule 81% · rule2 51% · rl_dqn_v112_best 32%  (best 점수 67%)
+경기 81009/85000  520 결정/초  업데이트 320  엔트로피 0.53  KL 0.0052  가치손실 0.063  최근 학습승률 58% (rl_ppo_v112_best:52% rule:70% rule2:48% rl_mc_v112_best:86% rl_sarsa_v112_best:32% rl_dqn_v112_best:33% random:98%)
+경기 81529/85000  536 결정/초  업데이트 322  엔트로피 0.55  KL 0.0035  가치손실 0.058  최근 학습승률 64% (rl_ppo_v112_best:48% rule:74% rule2:56% rl_mc_v112_best:84% rl_sarsa_v112_best:32% rl_dqn_v112_best:37% random:98%)
+경기 82032/85000  551 결정/초  업데이트 324  엔트로피 0.54  KL 0.0041  가치손실 0.067  최근 학습승률 59% (rl_ppo_v112_best:49% rule:73% rule2:52% rl_mc_v112_best:84% rl_sarsa_v112_best:33% rl_dqn_v112_best:36% random:100%)
+경기 82525/85000  564 결정/초  업데이트 326  엔트로피 0.55  KL 0.0050  가치손실 0.062  최근 학습승률 62% (rl_ppo_v112_best:50% rule:71% rule2:50% rl_mc_v112_best:84% rl_sarsa_v112_best:32% rl_dqn_v112_best:34% random:100%)
+  ▶ 평가(탐험 없음, 100판씩) random 96% · rule 85% · rule2 45% · rl_dqn_v112_best 36%  (best 점수 67%)
+경기 83011/85000  551 결정/초  업데이트 328  엔트로피 0.54  KL 0.0041  가치손실 0.065  최근 학습승률 60% (rl_ppo_v112_best:50% rule:75% rule2:52% rl_mc_v112_best:84% rl_sarsa_v112_best:36% rl_dqn_v112_best:32% random:100%)
+경기 83522/85000  563 결정/초  업데이트 330  엔트로피 0.53  KL 0.0077  가치손실 0.068  최근 학습승률 59% (rl_ppo_v112_best:50% rule:72% rule2:53% rl_mc_v112_best:80% rl_sarsa_v112_best:36% rl_dqn_v112_best:29% random:100%)
+경기 84020/85000  573 결정/초  업데이트 332  엔트로피 0.52  KL 0.0057  가치손실 0.062  최근 학습승률 56% (rl_ppo_v112_best:48% rule:64% rule2:50% rl_mc_v112_best:78% rl_sarsa_v112_best:38% rl_dqn_v112_best:29% random:98%)
+경기 84528/85000  583 결정/초  업데이트 334  엔트로피 0.50  KL 0.0074  가치손실 0.063  최근 학습승률 60% (rl_ppo_v112_best:46% rule:65% rule2:54% rl_mc_v112_best:78% rl_sarsa_v112_best:42% rl_dqn_v112_best:28% random:98%)
+  ▶ 평가(탐험 없음, 100판씩) random 99% · rule 80% · rule2 47% · rl_dqn_v112_best 39%  (best 점수 67%)
+경기 85037/85000  570 결정/초  업데이트 336  엔트로피 0.54  KL 0.0041  가치손실 0.066  최근 학습승률 60% (rl_ppo_v112_best:48% rule:69% rule2:54% rl_mc_v112_best:77% rl_sarsa_v112_best:43% rl_dqn_v112_best:36% random:98%)
+  ▶ 평가(탐험 없음, 100판씩) random 97% · rule 74% · rule2 57% · rl_dqn_v112_best 41%  (best 점수 67%)
+완료. 모델 위치: C:\card_rl\train\..\models\ppo_v112  (model.json=최신, best.json=평가 최고)
+------------------------------------------------------------------------------
+[r2_ppo_1] 끝 13:53:08   소요 12분 50초   종료코드 0
+[r2_ppo_1] 마지막 평가: games=85037  updates=336  ent=0.537  kl=0.0041  vs_random=0.97  vs_rule=0.74  vs_rule2=0.57  vs_eval_opp=0.41  best_score=0.67
+------------------------------------------------------------------------------
+
+==============================================================================
+[r2_ppo_2] 시작 2026-10-27 13:53:08
+명령: train\ppo.py --name ppo_v112 --games 95000 --minutes 60 --resume --opp random:5,rule:10,rule2:25,rl_dqn_v112_best:15,rl_sarsa_v112_best:15,rl_mc_v112_best:15,rl_ppo_v112_best:15 --eval-vs rl_dqn_v112_best
+==============================================================================
+[ppo] 장치=cuda  Node 5개 × 동시 16판  덱=random  상대={'random': 5.0, 'rule': 10.0, 'rule2': 25.0, 'rl_dqn_v112_best': 15.0, 'rl_sarsa_v112_best': 15.0, 'rl_mc_v112_best': 15.0, 'rl_ppo_v112_best': 15.0}
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+RL 봇 8개는 현재 엔진/번호표와 맞지 않아 건너뜀: rl_dqn, rl_dqn_best, rl_mc, rl_mc_best, rl_ppo, rl_ppo_best, rl_sarsa, rl_sarsa_best
+  이유 예: 옛 형식 모델이라 현재 엔진과 맞지 않습니다. 카드/엔진이 바뀌었으면 python train\migrate.py 로 옮기거나 다시 학습해야 합니다.
+[env] RL 상대 봇 등록: rl_dqn_v112, rl_dqn_v112_best, rl_mc_v112, rl_mc_v112_best, rl_ppo_v112, rl_ppo_v112_best, rl_sarsa_v112, rl_sarsa_v112_best
+엔진 v112 · 특징 v2 · 저장 폴더 C:\card_rl\train\..\models\ppo_v112
+이어서 학습: 이미 85037판, 업데이트 336번
+경기 85514/95000  791 결정/초  업데이트 338  엔트로피 0.51  KL 0.0063  가치손실 0.065  최근 학습승률 56% (rl_ppo_v112_best:49% rule2:48% rl_sarsa_v112_best:33% rl_dqn_v112_best:39% rl_mc_v112_best:79% random:100% rule:76%)
+경기 86018/95000  806 결정/초  업데이트 340  엔트로피 0.52  KL 0.0071  가치손실 0.067  최근 학습승률 57% (rl_ppo_v112_best:51% rule2:48% rl_sarsa_v112_best:35% rl_dqn_v112_best:35% rl_mc_v112_best:80% random:98% rule:78%)
+경기 86543/95000  816 결정/초  업데이트 342  엔트로피 0.51  KL 0.0055  가치손실 0.072  최근 학습승률 56% (rl_ppo_v112_best:53% rule2:49% rl_sarsa_v112_best:34% rl_dqn_v112_best:36% rl_mc_v112_best:83% random:97% rule:73%)
+경기 87052/95000  813 결정/초  업데이트 344  엔트로피 0.49  KL 0.0055  가치손실 0.065  최근 학습승률 56% (rl_ppo_v112_best:60% rule2:52% rl_sarsa_v112_best:34% rl_dqn_v112_best:38% rl_mc_v112_best:78% random:97% rule:71%)
+  ▶ 평가(탐험 없음, 100판씩) random 98% · rule 70% · rule2 54% · rl_dqn_v112_best 35%  (best 점수 67%)
+경기 87299/95000  649 결정/초  업데이트 345  엔트로피 0.51  KL 0.0058  가치손실 0.066  최근 학습승률 56% (rl_ppo_v112_best:56% rule2:56% rl_sarsa_v112_best:36% rl_dqn_v112_best:39% rl_mc_v112_best:80% random:96% rule:68%)
+경기 87819/95000  677 결정/초  업데이트 347  엔트로피 0.50  KL 0.0052  가치손실 0.069  최근 학습승률 59% (rl_ppo_v112_best:56% rule2:60% rl_sarsa_v112_best:38% rl_dqn_v112_best:42% rl_mc_v112_best:76% random:97% rule:67%)
+경기 88326/95000  698 결정/초  업데이트 349  엔트로피 0.52  KL 0.0055  가치손실 0.066  최근 학습승률 56% (rl_ppo_v112_best:53% rule2:59% rl_sarsa_v112_best:42% rl_dqn_v112_best:38% rl_mc_v112_best:80% random:96% rule:70%)
+경기 88846/95000  713 결정/초  업데이트 351  엔트로피 0.50  KL 0.0051  가치손실 0.066  최근 학습승률 55% (rl_ppo_v112_best:52% rule2:50% rl_sarsa_v112_best:36% rl_dqn_v112_best:35% rl_mc_v112_best:82% random:95% rule:71%)
+  ▶ 평가(탐험 없음, 100판씩) random 99% · rule 73% · rule2 55% · rl_dqn_v112_best 38%  (best 점수 67%)
+경기 89355/95000  651 결정/초  업데이트 353  엔트로피 0.50  KL 0.0056  가치손실 0.069  최근 학습승률 53% (rl_ppo_v112_best:48% rule2:51% rl_sarsa_v112_best:38% rl_dqn_v112_best:30% rl_mc_v112_best:82% random:96% rule:74%)
+경기 89849/95000  667 결정/초  업데이트 355  엔트로피 0.53  KL 0.0050  가치손실 0.058  최근 학습승률 54% (rl_ppo_v112_best:46% rule2:52% rl_sarsa_v112_best:36% rl_dqn_v112_best:35% rl_mc_v112_best:78% random:96% rule:73%)
+경기 90355/95000  680 결정/초  업데이트 357  엔트로피 0.51  KL 0.0065  가치손실 0.065  최근 학습승률 56% (rl_ppo_v112_best:46% rule2:51% rl_sarsa_v112_best:38% rl_dqn_v112_best:38% rl_mc_v112_best:74% random:96% rule:73%)
+경기 90885/95000  692 결정/초  업데이트 359  엔트로피 0.51  KL 0.0056  가치손실 0.064  최근 학습승률 59% (rl_ppo_v112_best:56% rule2:52% rl_sarsa_v112_best:37% rl_dqn_v112_best:42% rl_mc_v112_best:76% random:97% rule:75%)
+  ▶ 평가(탐험 없음, 100판씩) random 95% · rule 77% · rule2 51% · rl_dqn_v112_best 35%  (best 점수 67%)
+경기 91400/95000  651 결정/초  업데이트 361  엔트로피 0.52  KL 0.0051  가치손실 0.064  최근 학습승률 58% (rl_ppo_v112_best:56% rule2:55% rl_sarsa_v112_best:40% rl_dqn_v112_best:42% rl_mc_v112_best:74% random:98% rule:74%)
+경기 91887/95000  661 결정/초  업데이트 363  엔트로피 0.51  KL 0.0056  가치손실 0.066  최근 학습승률 58% (rl_ppo_v112_best:55% rule2:56% rl_sarsa_v112_best:37% rl_dqn_v112_best:41% rl_mc_v112_best:76% random:97% rule:74%)
+경기 92386/95000  669 결정/초  업데이트 365  엔트로피 0.53  KL 0.0059  가치손실 0.067  최근 학습승률 54% (rl_ppo_v112_best:57% rule2:45% rl_sarsa_v112_best:38% rl_dqn_v112_best:42% rl_mc_v112_best:76% random:97% rule:72%)
+  ▶ 평가(탐험 없음, 100판씩) random 98% · rule 81% · rule2 60% · rl_dqn_v112_best 29%  (best 점수 67%)
+Traceback (most recent call last):
+  File "C:\card_rl\train\ppo.py", line 317, in <module>
+    last, warm = ppo_update(buf_obs, buf_a.ravel(), buf_lp.ravel(), adv.ravel(), ret.ravel())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\card_rl\train\ppo.py", line 220, in ppo_update
+    logp = dist.log_prob(acts_t[idx])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\changmin\anaconda3\envs\cardrl\Lib\site-packages\torch\distributions\categorical.py", line 153, in log_prob
+    self._validate_sample(value)
+  File "C:\Users\changmin\anaconda3\envs\cardrl\Lib\site-packages\torch\distributions\distribution.py", line 324, in _validate_sample
+    raise ValueError(
+ValueError: Expected value argument (Tensor of shape (1024,)) to be within the support (IntegerInterval(lower_bound=0, upper_bound=43)) of the distribution Categorical(logits: torch.Size([1024, 44])), but found invalid values:
+tensor([3, 0, 0,  ..., 0, 0, 0], device='cuda:0')
+------------------------------------------------------------------------------
+[r2_ppo_2] 끝 14:02:21   소요 9분 12초   종료코드 1
+[r2_ppo_2] 마지막 평가: games=92649  updates=365  ent=0.529  kl=0.0059  vs_random=0.98  vs_rule=0.81  vs_rule2=0.6  vs_eval_opp=0.29  best_score=0.67
+------------------------------------------------------------------------------
